@@ -17,7 +17,8 @@
           <element id="library" level="project" name="Maven: org.mybatis:mybatis-spring:1.2.2" />
           <element id="library" level="project" name="Maven: com.github.miemiedev:mybatis-paginator:1.2.15" />
           <element id="library" level="project" name="Maven: com.github.pagehelper:pagehelper:3.2.1" />
-          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.32" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.12" />
+          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:2.6.0" />
           <element id="library" level="project" name="Maven: com.alibaba:druid:1.0.9" />
           <element id="archive" name="jarvismall-manager-interface-1.0-SNAPSHOT.jar">
             <element id="module-output" name="jarvismall-manager-interface" />
