@@ -12,7 +12,7 @@
     <artifactId>jarvismall-manager-dao</artifactId>
     <packaging>jar</packaging>
 
-    <name>jarvismall-manager</name>
+    <name>jarvismall-manager-dao</name>
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
 
