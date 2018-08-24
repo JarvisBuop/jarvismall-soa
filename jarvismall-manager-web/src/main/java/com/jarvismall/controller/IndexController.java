@@ -22,7 +22,6 @@ public class IndexController {
      */
     @RequestMapping("/{page}")
     public String showPage(@PathVariable String page){
-
         return page;
     }
 

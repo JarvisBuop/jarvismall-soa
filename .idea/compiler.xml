@@ -6,6 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="jarvismai-lportal-web" />
+        <module name="jarvismai-portal-web" />
         <module name="jarvismall-common" />
         <module name="jarvismall-manager-dao" />
         <module name="jarvismall-manager-interface" />
@@ -16,6 +18,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="jarvismai-lportal-web" target="1.7" />
+      <module name="jarvismai-portal-web" target="1.7" />
       <module name="jarvismall-common" target="1.7" />
       <module name="jarvismall-manager" target="1.7" />
       <module name="jarvismall-manager-dao" target="1.7" />

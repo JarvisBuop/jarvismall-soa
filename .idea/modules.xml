@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/jarvismai-portal-web/jarvismai-lportal-web.iml" filepath="$PROJECT_DIR$/jarvismai-portal-web/jarvismai-lportal-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/jarvismall-common/jarvismall-common.iml" filepath="$PROJECT_DIR$/jarvismall-common/jarvismall-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-dao/jarvismall-manager-dao.iml" filepath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-dao/jarvismall-manager-dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-interface/jarvismall-manager-interface.iml" filepath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-interface/jarvismall-manager-interface.iml" />

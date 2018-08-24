@@ -5,6 +5,7 @@ import java.util.List;
 
 /**
  * Created by JarvisDong on 2018/8/20.
+ * easyui树形控件
  */
 public class EasyUiTreeNode implements Serializable{
     private long id;

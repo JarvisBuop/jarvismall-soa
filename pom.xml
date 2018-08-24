@@ -303,6 +303,7 @@
         <module>jarvismall-manager</module>
         <module>jarvismall-common</module>
         <module>jarvismall-manager-web</module>
+        <module>jarvismai-portal-web</module>
     </modules>
 
 

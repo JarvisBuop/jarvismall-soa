@@ -5,6 +5,7 @@ import java.util.List;
 
 /**
  * Created by JarvisDong on 2018/8/19.
+ * easyui 分页数据;
  */
 public class EasyUiDataGridResult<T> implements Serializable {
     private Integer total;

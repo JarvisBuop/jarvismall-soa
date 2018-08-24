@@ -2,6 +2,7 @@ package com.jarvismall.controller;
 
 import com.jarvismall.pojo.EasyUiDataGridResult;
 import com.jarvismall.pojo.EasyUiTreeNode;
+import com.jarvismall.pojo.TaotaoResult;
 import com.jarvismall.pojo.TbItem;
 import com.jarvismall.service.TbItemService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -41,5 +42,11 @@ public class TbItemController {
     public List<EasyUiTreeNode> getTreeNodeByParentId(@RequestParam(name = "id" ,defaultValue = "0") long parentId){
         List<EasyUiTreeNode> nodes = tbItemService.getTreeNodeByParentId(parentId);
         return nodes;
+    }
+
+    @RequestMapping("/item/save")
+    @ResponseBody
+    public TaotaoResult addItem(TbItem item, String desc){
+        return tbItemService.addItem(item,desc);
     }
 }

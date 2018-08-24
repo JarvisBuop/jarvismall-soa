@@ -2,36 +2,245 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f741753d-9392-4465-b402-f3c3b0622e42" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismall-manager-web/src/main/java/com/jarvismall/controller/PictureController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismall-manager-web/src/main/java/com/jarvismall/utils/FastDFSClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismall-manager-web/src/main/resources/resource/client.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismall-manager-web/src/main/resources/resource/resource.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismall-manager-web/src/test/java/TestFastDFS.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jarvismall-manager-web/target/tomcat/logs/access_log.2018-08-20" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/15.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/17.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/18.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/20111221C.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/20120112B.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/20120209D.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/20130330A.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/20130330A_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/20130330B_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/20130330C.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/20130415i.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/20130606B (1).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/20130606B.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/20130725.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/2013100701.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/2013100702.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/22.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/28.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/360_flash.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/360_video.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/537b084eN94336622.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/541f893aN662da9bc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/541fdd63Nab1b3c63.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/54238aaaN17189794.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/543b4d75N686689d7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/5440b1e4N8ff6d0fd.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/5440b1e7N1ade375b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/5440ce68Na00d019e.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/544a11d3Na5a3d566.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/547e6a57N75c2f016.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/549d03d0N59b1f026.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/backpanel20140708.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/bg20110922.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/bg_hotsale.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/bg_prompt.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/bg_thickbox.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/blank.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/btn-again.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/btn-bg-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/btn-check-20140627.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/btn-submit-new.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/btn-submit.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/cart_corner_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/checkout-title.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/cicon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/commstar.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/control-icon-20140521.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/cue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/defaultImgs/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/defaultImgs/10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/defaultImgs/11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/defaultImgs/12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/defaultImgs/13.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/defaultImgs/14.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/defaultImgs/15.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/defaultImgs/16.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/defaultImgs/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/defaultImgs/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/defaultImgs/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/defaultImgs/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/defaultImgs/6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/defaultImgs/7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/defaultImgs/8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/defaultImgs/9.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/error-3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/error-jd.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/errordog.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/floor-sort20131202.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/flow.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/footprint-arr.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/hover-btn.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/icon48.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/iconadd.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/im20131028.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/index-jd-wx-qrcode.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/index.showcase.tg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/layer-credit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/loading-jd.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/login-all-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/logo-201305.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/m-buy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/more-slide.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/my_cart_title.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/myjd-bg2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/myjd-common-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/myjd-new-ico.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/newicon20140417.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/one4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/one5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/one6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/order-icon-20140811.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/p-btns-20140611.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/perfect_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/phone-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/promise20141021.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/purchase-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/pwdstrength.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/qr-code-sao.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/qr-code-sao02.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/rBEhV1I2yiUIAAAAAADKL7RWKf8AADQDQOQekkAAMpH341.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/rBEhV1NXYLYIAAAAAADGO8-wV-UAAMfdgNi-BAAAMZT367.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/rank-sh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/rank2014.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/regist-btn.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/regist-word.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/share.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/step1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/step2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/sucess.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/swfupload.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/tab.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/taotao-logo.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/thickbox_close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/tip-arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/tip-cue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/toggler-arrow.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/update.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/user_purchase.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/vip.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/virtuals-20140606.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/virtuals-cat-ico20140826.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/wait-btn.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/yzm.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/jarvismai-portal-web.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/java/com/jarvismail/portal/controller/IndexController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/resources/log4j.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/resources/resource/resource.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/resources/spring/springMvc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/WEB-INF/jsp/commons/footer-links.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/WEB-INF/jsp/commons/footer.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/WEB-INF/jsp/commons/header.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/WEB-INF/jsp/commons/shortcut.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/WEB-INF/jsp/error/exception.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/WEB-INF/jsp/index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/css/base.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/css/login.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/css/myjd.commentImg.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/css/myjd.common.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/css/myjd.info.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/css/myjd.order.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/css/order-commons.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/css/passport.base.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/css/pop_compare.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/css/psearch.onebox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/css/psearch20131008.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/css/pshow.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/css/purchase.2012.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/css/purchase.base.2012.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/css/purchase.checkout.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/css/purchase.sop.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/css/regist.personal.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/css/taotao.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/js/CommentStar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/js/base-2011.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/js/base-v1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/js/base.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/js/calendar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/js/cart.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/js/home.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/js/iplocation_server.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/js/jTips.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/js/jquery-1.6.4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/js/jquery-extend.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/js/jquery.checkout.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/js/jquery.cookie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/js/jquery.hashchange.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/js/jquery.price_format.2.0.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/js/lib-v1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/js/order.common.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/js/product.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/js/search_main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/js/taotao.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismall-common/src/main/java/com/jarvismall/pojo/TaotaoResult.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismall-common/src/main/java/com/jarvismall/utils/IDUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismall-common/src/main/java/com/jarvismall/utils/JsonUtils.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jarvismall-manager-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jarvismall-manager-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jarvismall-manager-web/target/tomcat/conf/logging.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jarvismall-manager-web/target/tomcat/conf/tomcat-users.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jarvismall-manager-web/target/tomcat/conf/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jarvismall-manager-web/target/tomcat/logs/access_log.2018-08-23" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/jarvismall-manager-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/index_jsp.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/jarvismall-manager-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/index_jsp.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/jarvismall-manager-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/item_002dadd_jsp.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/jarvismall-manager-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/item_002dadd_jsp.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-service/target/tomcat/logs/access_log.2018-08-20" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jarvismall-manager-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/item_002dlist_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jarvismall-manager-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/item_002dlist_jsp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-service/target/tomcat/conf/logging.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-service/target/tomcat/conf/tomcat-users.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-service/target/tomcat/conf/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-service/target/tomcat/logs/access_log.2018-08-23" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-service/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-service/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jarvismall-common/target/classes/com/jarvismall/pojo/EasyUiDataGridResult.class" afterPath="$PROJECT_DIR$/jarvismall-common/target/classes/com/jarvismall/pojo/EasyUiDataGridResult.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jarvismall-common/target/classes/com/jarvismall/pojo/EasyUiTreeNode.class" afterPath="$PROJECT_DIR$/jarvismall-common/target/classes/com/jarvismall/pojo/EasyUiTreeNode.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jarvismall-common/target/jarvis-common.jar" afterPath="$PROJECT_DIR$/jarvismall-common/target/jarvis-common.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jarvismall-manager-web/target/classes/com/jarvismall/controller/IndexController.class" afterPath="$PROJECT_DIR$/jarvismall-manager-web/target/classes/com/jarvismall/controller/IndexController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jarvismall-manager-web/target/classes/com/jarvismall/controller/PictureController.class" afterPath="$PROJECT_DIR$/jarvismall-manager-web/target/classes/com/jarvismall/controller/PictureController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jarvismall-manager-web/target/classes/com/jarvismall/controller/TbItemController.class" afterPath="$PROJECT_DIR$/jarvismall-manager-web/target/classes/com/jarvismall/controller/TbItemController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-interface/target/classes/com/jarvismall/service/TbItemService.class" afterPath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-interface/target/classes/com/jarvismall/service/TbItemService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-service/target/classes/com/jarvismall/service/impl/TbItemServiceImpl.class" afterPath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-service/target/classes/com/jarvismall/service/impl/TbItemServiceImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/jarvismall_manager_service_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/jarvismall_manager_service_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/jarvismall_manager_web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/jarvismall_manager_web_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jarvismall-common/jarvismall-common.iml" afterPath="$PROJECT_DIR$/jarvismall-common/jarvismall-common.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jarvismall-common/pom.xml" afterPath="$PROJECT_DIR$/jarvismall-common/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jarvismall-common/src/main/java/com/jarvismall/pojo/EasyUiDataGridResult.java" afterPath="$PROJECT_DIR$/jarvismall-common/src/main/java/com/jarvismall/pojo/EasyUiDataGridResult.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jarvismall-common/src/main/java/com/jarvismall/pojo/EasyUiTreeNode.java" afterPath="$PROJECT_DIR$/jarvismall-common/src/main/java/com/jarvismall/pojo/EasyUiTreeNode.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jarvismall-common/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/jarvismall-common/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jarvismall-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/jarvismall-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jarvismall-manager-web/jarvismall-manager-web.iml" afterPath="$PROJECT_DIR$/jarvismall-manager-web/jarvismall-manager-web.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jarvismall-manager-web/pom.xml" afterPath="$PROJECT_DIR$/jarvismall-manager-web/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jarvismall-manager-web/src/main/resources/spring/springMvc.xml" afterPath="$PROJECT_DIR$/jarvismall-manager-web/src/main/resources/spring/springMvc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jarvismall-manager-web/target/classes/spring/springMvc.xml" afterPath="$PROJECT_DIR$/jarvismall-manager-web/target/classes/spring/springMvc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jarvismall-manager-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/jarvismall-manager-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jarvismall-manager-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/jarvismall-manager-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jarvismall-manager-web/src/main/java/com/jarvismall/controller/IndexController.java" afterPath="$PROJECT_DIR$/jarvismall-manager-web/src/main/java/com/jarvismall/controller/IndexController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jarvismall-manager-web/src/main/java/com/jarvismall/controller/PictureController.java" afterPath="$PROJECT_DIR$/jarvismall-manager-web/src/main/java/com/jarvismall/controller/PictureController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jarvismall-manager-web/src/main/java/com/jarvismall/controller/TbItemController.java" afterPath="$PROJECT_DIR$/jarvismall-manager-web/src/main/java/com/jarvismall/controller/TbItemController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-dao/jarvismall-manager-dao.iml" afterPath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-dao/jarvismall-manager-dao.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-interface/jarvismall-manager-interface.iml" afterPath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-interface/jarvismall-manager-interface.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-interface/src/main/java/com/jarvismall/service/TbItemService.java" afterPath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-interface/src/main/java/com/jarvismall/service/TbItemService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-pojo/jarvismall-manager-pojo.iml" afterPath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-pojo/jarvismall-manager-pojo.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-service/jarvismall-manager-service.iml" afterPath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-service/jarvismall-manager-service.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-service/pom.xml" afterPath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-service/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-service/src/main/resources/spring/applicationContext-service.xml" afterPath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-service/src/main/resources/spring/applicationContext-service.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-service/target/classes/spring/applicationContext-service.xml" afterPath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-service/target/classes/spring/applicationContext-service.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-service/src/main/java/com/jarvismall/service/impl/TbItemServiceImpl.java" afterPath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-service/src/main/java/com/jarvismall/service/impl/TbItemServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -52,6 +261,8 @@
     <ignored path="jarvismall-manager/jarvismall-manager-service/jarvismall-manager-service.iml" />
     <ignored path="jarvismall-manager-web/jarvismall-manager-web.iml" />
     <ignored path="jarvismall-parent.iml" />
+    <ignored path="$PROJECT_DIR$/jarvismai-lportal-web/target/" />
+    <ignored path="$PROJECT_DIR$/jarvismai-portal-web/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,76 +277,46 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-service/pom.xml">
+      <file leaf-file-name="springMvc.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jarvismai-portal-web/src/main/resources/spring/springMvc.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="673">
-              <caret line="71" column="39" lean-forward="false" selection-start-line="71" selection-start-column="39" selection-end-line="71" selection-end-column="39" />
+            <state relative-caret-position="255">
+              <caret line="15" column="61" lean-forward="false" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="40" lean-forward="true" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jarvismall-manager-web/pom.xml">
+        <entry file="file://$PROJECT_DIR$/jarvismai-portal-web/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="36" column="34" lean-forward="false" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+            <state relative-caret-position="2023">
+              <caret line="119" column="19" lean-forward="true" selection-start-line="119" selection-start-column="19" selection-end-line="119" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PictureController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jarvismall-manager-web/src/main/java/com/jarvismall/controller/PictureController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="39" column="32" lean-forward="false" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestFastDFS.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jarvismall-manager-web/src/test/java/TestFastDFS.java">
+      <file leaf-file-name="IndexController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jarvismai-portal-web/src/main/java/com/jarvismail/portal/controller/IndexController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+              <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#307#308#0" expanded="true" />
+                <element signature="e#337#338#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MultipartFile.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.2.4.RELEASE/spring-web-4.2.4.RELEASE.jar!/org/springframework/web/multipart/MultipartFile.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="springMvc.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jarvismall-manager-web/src/main/resources/spring/springMvc.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="54" column="57" lean-forward="false" selection-start-line="54" selection-start-column="57" selection-end-line="54" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="applicationContext-service.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-service/src/main/resources/spring/applicationContext-service.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -166,7 +347,6 @@
       <find>PageHelper</find>
       <find>menu</find>
       <find>pageNum</find>
-      <find>url</find>
       <find>total</find>
       <find>count</find>
       <find>select</find>
@@ -176,10 +356,15 @@
       <find>\\</find>
       <find>storageServer</find>
       <find>commons-io.version</find>
+      <find>url</find>
+      <find>submitForm</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -189,16 +374,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-service/src/main/resources/mybatis/ApplicationContext-service.xml" />
-        <option value="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-service/src/main/resources/properties/db.properties" />
-        <option value="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-service/src/main/resources/spring/ApplicationContext-service.xml" />
-        <option value="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-service/src/main/resources/spring/ApplicationContext-dao.xml" />
-        <option value="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-service/src/main/resources/spring/ApplicationContext-trans.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-service/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-service/src/main/resources/spring/applicationContext-dao.xml" />
-        <option value="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-service/src/main/resources/spring/applicationContext-trans.xml" />
-        <option value="$PROJECT_DIR$/jarvismall-manager/pom.xml" />
         <option value="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-dao/src/main/java/com/aaa/TbContentMapper.xml" />
         <option value="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-dao/src/main/java/com/jarvismall/mapper/TbContentCategoryMapper.java" />
         <option value="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-dao/src/main/java/TbItemMapper.xml" />
@@ -224,22 +399,32 @@
         <option value="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-dao/pom.xml" />
         <option value="$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/Test.java" />
         <option value="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-service/src/test/java/TestPageHelper.java" />
-        <option value="$PROJECT_DIR$/jarvismall-common/src/main/java/com/jarvismall/pojo/EasyUiDataGridResult.java" />
-        <option value="$PROJECT_DIR$/jarvismall-manager-web/src/main/java/com/jarvismall/controller/IndexController.java" />
-        <option value="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-interface/src/main/java/com/jarvismall/service/TbItemService.java" />
-        <option value="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-service/src/main/java/com/jarvismall/service/impl/TbItemServiceImpl.java" />
-        <option value="$PROJECT_DIR$/jarvismall-manager-web/src/main/java/com/jarvismall/controller/TbItemController.java" />
-        <option value="$PROJECT_DIR$/jarvismall-common/src/main/java/com/jarvismall/pojo/EasyUiTreeNode.java" />
-        <option value="$PROJECT_DIR$/jarvismall-manager-web/pom.xml" />
         <option value="$PROJECT_DIR$/jarvismall-manager-web/src/test/java/TestFastDFS.java" />
         <option value="$PROJECT_DIR$/jarvismall-manager-web/src/main/resources/resource/client.conf" />
-        <option value="$PROJECT_DIR$/jarvismall-common/pom.xml" />
         <option value="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-service/pom.xml" />
         <option value="$PROJECT_DIR$/jarvismall-manager-web/src/main/java/com/jarvismall/utils/FastDFSClient.java" />
         <option value="$PROJECT_DIR$/jarvismall-manager-web/src/main/resources/resource/resource.properties" />
         <option value="$PROJECT_DIR$/jarvismall-manager-web/src/main/resources/spring/springMvc.xml" />
         <option value="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-service/src/main/resources/spring/applicationContext-service.xml" />
+        <option value="$PROJECT_DIR$/jarvismall-common/src/main/java/com/jarvismall/utils/JsonUtils.java" />
         <option value="$PROJECT_DIR$/jarvismall-manager-web/src/main/java/com/jarvismall/controller/PictureController.java" />
+        <option value="$PROJECT_DIR$/jarvismall-common/src/main/java/com/jarvismall/pojo/EasyUiDataGridResult.java" />
+        <option value="$PROJECT_DIR$/jarvismall-common/src/main/java/com/jarvismall/pojo/EasyUiTreeNode.java" />
+        <option value="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-interface/src/main/java/com/jarvismall/service/TbItemService.java" />
+        <option value="$PROJECT_DIR$/jarvismall-common/src/main/java/com/jarvismall/utils/IDUtils.java" />
+        <option value="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-service/src/main/java/com/jarvismall/service/impl/TbItemServiceImpl.java" />
+        <option value="$PROJECT_DIR$/jarvismall-manager-web/src/main/java/com/jarvismall/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/jarvismall-manager-web/src/main/java/com/jarvismall/controller/TbItemController.java" />
+        <option value="$PROJECT_DIR$/jarvismall-common/src/main/java/com/jarvismall/pojo/TaotaoResult.java" />
+        <option value="$PROJECT_DIR$/jarvismai-lportal-web/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/jarvismall-common/pom.xml" />
+        <option value="$PROJECT_DIR$/jarvismall-manager-web/pom.xml" />
+        <option value="$PROJECT_DIR$/jarvismai-portal-web/src/main/resources/resource/resource.properties" />
+        <option value="$PROJECT_DIR$/jarvismai-portal-web/src/main/java/com/jarvismail/portal/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/jarvismai-portal-web/pom.xml" />
+        <option value="$PROJECT_DIR$/jarvismai-portal-web/src/main/resources/spring/springMvc.xml" />
+        <option value="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/WEB-INF/web.xml" />
       </list>
     </option>
   </component>
@@ -257,32 +442,10 @@
     </option>
   </component>
   <component name="MavenProjectNavigator">
-    <treeState>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="jarvismall-parent" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="jarvismall-manager-web" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-      </PATH>
-    </treeState>
+    <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="151" />
-    <option name="y" value="4" />
+    <option name="x" value="3" />
     <option name="width" value="1715" />
     <option name="height" value="1046" />
   </component>
@@ -349,14 +512,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -377,6 +532,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -457,12 +616,100 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jarvismall-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jarvismall-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jarvismai-portal-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jarvismall-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jarvismall-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jarvismai-portal-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jarvismall-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jarvismall-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jarvismai-portal-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jarvismall-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jarvismall-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jarvismai-portal-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resource" />
+              <option name="myItemId" value="spring" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -476,7 +723,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="jarvismall-manager-web" />
+              <option name="myItemId" value="jarvismai-portal-web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -489,240 +736,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jarvismall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jarvismall-parent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jarvismall-parent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jarvismall-manager-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jarvismall" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jarvismall-parent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jarvismall-parent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jarvismall-manager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jarvismall-parent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jarvismall-parent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jarvismall-manager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jarvismall-manager-service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jarvismall-parent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jarvismall-parent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jarvismall-manager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jarvismall-manager-service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jarvismall-parent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jarvismall-parent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jarvismall-manager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jarvismall-manager-service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jarvismall-parent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jarvismall-parent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jarvismall-manager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jarvismall-manager-service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jarvismall-parent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jarvismall-parent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jarvismall-manager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jarvismall-manager-service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jarvismall-parent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jarvismall-parent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jarvismall-manager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jarvismall-manager-service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="impl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jarvismall-parent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jarvismall-parent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jarvismall-common" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -739,18 +756,18 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/jarvismall-parent.iml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/jarvismai-portal-web" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\MyIdeaPro\jarvismall-parent\jarvismall-manager-web\src\main\java\com\jarvismall\utils" />
-      <recent name="D:\MyIdeaPro\jarvismall-parent\jarvismall-manager-web\src\main\webapp\WEB-INF" />
-      <recent name="D:\MyIdeaPro\jarvismall-parent\jarvismall-manager-web\src\main\resource" />
-      <recent name="D:\MyIdeaPro\jarvismall-parent\jarvismall-manager\jarvismall-manager-pojo\src\main\java\com\jarvismall" />
-      <recent name="D:\MyIdeaPro\jarvismall-parent\jarvismall-manager\jarvismall-manager-dao\src\main\java\com\jarvismall" />
+      <recent name="D:\MyIdeaPro\jarvismall-parent\jarvismai-portal-web\src\main\webapp\WEB-INF" />
+      <recent name="D:\MyIdeaPro\jarvismall-parent\jarvismai-portal-web\src\main\webapp" />
+      <recent name="D:\MyIdeaPro\jarvismall-parent\jarvismai-portal-web\src\main\resources" />
+      <recent name="D:\MyIdeaPro\jarvismall-parent\jarvismall-common\src\main\java\com\jarvismall\utils" />
+      <recent name="D:\MyIdeaPro\jarvismall-parent\jarvismall-common\src\main\java\com\jarvismall\pojo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\MyIdeaPro\jarvismall-parent\jarvismall-manager-web\src\main\webapp" />
@@ -772,7 +789,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.jarvismall-web">
+  <component name="RunManager" selected="Maven.jarvismall-portal">
     <configuration default="false" name="TestPageHelper.testPageHelper" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="jarvismall-manager-service" />
@@ -1347,11 +1364,37 @@
       </MavenSettings>
       <method />
     </configuration>
-    <list size="4">
+    <configuration default="false" name="jarvismall-portal" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/jarvismai-portal-web" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Maven.jarvismall-web" />
       <item index="1" class="java.lang.String" itemvalue="Maven.jarvismall-service" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TestPageHelper.testPageHelper" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TestFastDFS.uploadFile" />
+      <item index="2" class="java.lang.String" itemvalue="Maven.jarvismall-portal" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestPageHelper.testPageHelper" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestFastDFS.uploadFile" />
     </list>
     <recent_temporary>
       <list size="2">
@@ -1381,7 +1424,7 @@
       <workItem from="1534206530300" duration="29624000" />
       <workItem from="1534461536574" duration="5524000" />
       <workItem from="1534499251974" duration="23184000" />
-      <workItem from="1534808211770" duration="12756000" />
+      <workItem from="1534808211770" duration="26722000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1534338139361</created>
@@ -1423,44 +1466,53 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71088000" />
+    <option name="totallyTimeSpent" value="85054000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="151" y="4" width="1715" height="1046" extended-state="0" />
+    <frame x="3" y="0" width="1715" height="1046" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24954683" sideWeight="0.752883" order="9" side_tool="true" content_ui="tabs" x="548" y="208" width="533" height="642" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24954683" sideWeight="0.7610475" order="9" side_tool="true" content_ui="tabs" x="548" y="208" width="533" height="642" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24954683" sideWeight="0.23895253" order="8" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39956093" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27442372" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39956093" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2741228" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4243421" sideWeight="0.4978488" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33369923" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33004385" sideWeight="0.4978488" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33333334" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23625378" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24954683" sideWeight="0.24711697" order="8" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1475,7 +1527,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1484,304 +1536,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jarvismall-manager-web/src/main/webapp/js/kindeditor-4.1.10/lang/zh_TW.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jarvismall-manager-web/src/main/webapp/js/kindeditor-4.1.10/themes/qq/qq.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jarvismall-manager-web/src/main/webapp/js/kindeditor-4.1.10/themes/qq/editor.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jarvismall-manager-web/src/main/webapp/js/kindeditor-4.1.10/themes/common/rm.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jarvismall-manager-web/src/main/webapp/index.jsp" />
-    <entry file="file://$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-dao/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="149" column="43" lean-forward="true" selection-start-line="149" selection-start-column="43" selection-end-line="149" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="65" column="18" lean-forward="false" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-service/src/main/resources/mybatis/sqlMapConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="56" lean-forward="false" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-service/src/test/java/TestPageHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="28" lean-forward="false" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper/3.2.1/pagehelper-3.2.1.jar!/com/github/pagehelper/PageHelper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="50" column="69" lean-forward="true" selection-start-line="50" selection-start-column="69" selection-end-line="50" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jarvismall-manager-web/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="44" lean-forward="false" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jarvismall-manager-web/src/main/webapp/WEB-INF/jsp/content.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jarvismall-manager-web/src/main/webapp/WEB-INF/jsp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jarvismall-manager-web/src/main/webapp/WEB-INF/jsp/item-param-list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="61" lean-forward="true" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jarvismall-manager-web/src/main/webapp/WEB-INF/jsp/item-edit.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-878">
-          <caret line="34" column="29" lean-forward="true" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper/3.2.1/pagehelper-3.2.1.jar!/com/github/pagehelper/Page.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-dao/src/main/java/com/jarvismall/mapper/TbItemDescMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-dao/src/main/java/com/jarvismall/mapper/TbItemMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="190" column="28" lean-forward="false" selection-start-line="190" selection-start-column="14" selection-end-line="190" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-dao/src/main/java/com/jarvismall/mapper/TbItemMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-pojo/src/main/java/com/jarvismall/pojo/TbItemExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-13319">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.2.4.RELEASE/spring-aop-4.2.4.RELEASE.jar!/org/springframework/aop/support/AopUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="163" column="0" lean-forward="false" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="848" column="0" lean-forward="false" selection-start-line="848" selection-start-column="0" selection-end-line="848" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jarvismall-manager-web/src/main/webapp/WEB-INF/jsp/item-list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="76" column="36" lean-forward="true" selection-start-line="76" selection-start-column="36" selection-end-line="76" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jarvismall-manager-web/src/main/webapp/WEB-INF/jsp/item-add.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1207">
-          <caret line="71" column="23" lean-forward="false" selection-start-line="71" selection-start-column="23" selection-end-line="71" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-pojo/src/main/java/com/jarvismall/pojo/TbItemCat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-dao/src/main/java/com/jarvismall/mapper/TbItemCatMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-dao/src/main/java/com/jarvismall/mapper/TbItemCatMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jarvismall-manager-web/src/main/java/com/jarvismall/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-          <folding>
-            <element signature="e#356#357#0" expanded="false" />
-            <element signature="e#386#387#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jarvismall-common/src/main/java/com/jarvismall/pojo/EasyUiDataGridResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jarvismall-manager-web/src/main/java/com/jarvismall/controller/TbItemController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="41" column="57" lean-forward="false" selection-start-line="41" selection-start-column="57" selection-end-line="41" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-interface/src/main/java/com/jarvismall/service/TbItemService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-service/src/main/java/com/jarvismall/service/impl/TbItemServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="23" column="36" lean-forward="false" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jarvismall-manager-web/src/main/webapp/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2125">
-          <caret line="125" column="33" lean-forward="false" selection-start-line="125" selection-start-column="33" selection-end-line="125" selection-end-column="47" />
-          <folding>
-            <marker date="1472979887082" expanded="true" signature="1425:1435" ph="..." />
-            <marker date="1472979887082" expanded="true" signature="1847:1887" ph="..." />
-            <marker date="1472979887082" expanded="true" signature="3186:3203" ph="..." />
-            <marker date="1472979887082" expanded="true" signature="3273:3290" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jarvismall-common/src/main/java/com/jarvismall/pojo/EasyUiTreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="36" column="5" lean-forward="false" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11-sources.jar!/org/junit/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="48" column="18" lean-forward="false" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/fastdfs_client/fastdfs_client/1.25/fastdfs_client-1.25.jar!/org/csource/fastdfs/TrackerClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="17" column="11" lean-forward="false" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-          <folding>
-            <element signature="e#424#425#0" expanded="true" />
-            <element signature="e#489#490#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jarvismall-manager-web/src/main/resources/resource/client.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="36" lean-forward="true" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jarvismall-common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="37" column="47" lean-forward="true" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
           <folding />
         </state>
       </provider>
@@ -1815,24 +1573,8 @@
         <state relative-caret-position="153">
           <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4053">
-          <caret line="44" column="8" lean-forward="false" selection-start-line="57" selection-start-column="12" selection-end-line="61" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jarvismall-manager/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1840,30 +1582,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="673">
           <caret line="71" column="39" lean-forward="false" selection-start-line="71" selection-start-column="39" selection-end-line="71" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jarvismall-manager-web/src/main/resources/spring/springMvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="54" column="57" lean-forward="false" selection-start-line="54" selection-start-column="57" selection-end-line="54" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-service/src/main/resources/spring/applicationContext-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jarvismall-manager-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="36" column="34" lean-forward="false" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -1876,13 +1594,377 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jarvismall-manager-web/src/main/java/com/jarvismall/controller/PictureController.java">
+    <entry file="file://$PROJECT_DIR$/jarvismall-manager-web/src/main/webapp/WEB-INF/jsp/item-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="76" column="36" lean-forward="true" selection-start-line="76" selection-start-column="36" selection-end-line="76" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarvismall-manager-web/src/main/webapp/WEB-INF/jsp/file-upload.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2737">
+          <caret line="20" column="42" lean-forward="true" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarvismall-manager-web/src/main/webapp/WEB-INF/jsp/content-add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarvismall-manager-web/src/main/webapp/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" column="35" lean-forward="false" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="35" />
+          <folding>
+            <marker date="1472979887082" expanded="true" signature="1425:1435" ph="..." />
+            <marker date="1472979887082" expanded="true" signature="1847:1887" ph="..." />
+            <marker date="1472979887082" expanded="true" signature="3186:3203" ph="..." />
+            <marker date="1472979887082" expanded="true" signature="3273:3290" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarvismall-common/src/main/java/com/jarvismall/utils/JsonUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="26" column="53" lean-forward="false" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarvismall-common/src/main/java/com/jarvismall/pojo/EasyUiTreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="e#704#705#0" expanded="true" />
+            <element signature="e#736#737#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarvismall-common/src/main/java/com/jarvismall/pojo/EasyUiDataGridResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="15" lean-forward="false" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-pojo/src/main/java/com/jarvismall/pojo/TbItemParam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.4.2/jackson-databind-2.4.2-sources.jar!/com/fasterxml/jackson/databind/ObjectMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="55" column="13" lean-forward="false" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-pojo/src/main/java/com/jarvismall/pojo/TbItemDescExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-901">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-pojo/src/main/java/com/jarvismall/pojo/TbItemCatExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-238">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-dao/src/main/java/com/jarvismall/mapper/TbItemCatMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-dao/src/main/java/com/jarvismall/mapper/TbItemDescMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-service/src/main/resources/spring/applicationContext-trans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="61" lean-forward="false" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-service/src/main/resources/spring/applicationContext-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-96">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-service/src/main/resources/mybatis/sqlMapConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-pojo/src/main/java/com/jarvismall/pojo/TbItemDesc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-pojo/src/main/java/com/jarvismall/pojo/TbItem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="39" column="32" lean-forward="false" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+          <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarvismall-common/src/main/java/com/jarvismall/utils/IDUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="35" column="22" lean-forward="false" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-service/src/main/resources/spring/applicationContext-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarvismall-manager-web/src/main/java/com/jarvismall/controller/PictureController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="37" column="34" lean-forward="true" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-service/src/main/java/com/jarvismall/service/impl/TbItemServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="75" column="56" lean-forward="false" selection-start-line="75" selection-start-column="32" selection-end-line="75" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-interface/src/main/java/com/jarvismall/service/TbItemService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarvismall-manager-web/src/main/resources/spring/springMvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-510">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarvismall-manager-web/src/main/webapp/WEB-INF/jsp/item-add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="113" column="45" lean-forward="true" selection-start-line="113" selection-start-column="45" selection-end-line="113" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarvismall-common/src/main/java/com/jarvismall/pojo/TaotaoResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="23" column="24" lean-forward="false" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarvismall-manager-web/src/main/java/com/jarvismall/controller/TbItemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="35" column="63" lean-forward="false" selection-start-line="35" selection-start-column="63" selection-end-line="35" selection-end-column="63" />
+          <folding>
+            <element signature="e#1632#1633#0" expanded="true" />
+            <element signature="e#1687#1688#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarvismall-manager/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1191">
+          <caret line="248" column="62" lean-forward="true" selection-start-line="248" selection-start-column="62" selection-end-line="248" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarvismai-portal-web/src/main/resources/resource/client.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-interface/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="47" lean-forward="false" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarvismall-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarvismai-portal-web/src/main/resources/resource/resource.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarvismall-manager-web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="51" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="45" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/WEB-INF/jsp/error/exception.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarvismall-manager-web/src/main/java/com/jarvismall/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarvismall-manager-web/src/main/webapp/WEB-INF/jsp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarvismai-portal-web/src/main/java/com/jarvismail/portal/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarvismall-manager-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="114" column="8" lean-forward="true" selection-start-line="114" selection-start-column="8" selection-end-line="117" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarvismai-portal-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2023">
+          <caret line="119" column="19" lean-forward="true" selection-start-line="119" selection-start-column="19" selection-end-line="119" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarvismai-portal-web/src/main/resources/spring/springMvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="61" lean-forward="false" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="40" lean-forward="true" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1940,7 +2022,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>jarvismall-manager-web</last-edited>
+          <last-edited>jarvismai-portal-web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

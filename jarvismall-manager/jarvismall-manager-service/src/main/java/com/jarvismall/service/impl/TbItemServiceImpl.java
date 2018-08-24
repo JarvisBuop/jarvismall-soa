@@ -3,13 +3,16 @@ package com.jarvismall.service.impl;
 import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
 import com.jarvismall.mapper.TbItemCatMapper;
+import com.jarvismall.mapper.TbItemDescMapper;
 import com.jarvismall.mapper.TbItemMapper;
 import com.jarvismall.pojo.*;
 import com.jarvismall.service.TbItemService;
+import com.jarvismall.utils.IDUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -19,9 +22,13 @@ import java.util.List;
 public class TbItemServiceImpl implements TbItemService {
 
     @Autowired
-    TbItemMapper tbItemMapper;
+    private TbItemMapper tbItemMapper;
     @Autowired
-    TbItemCatMapper tbItemCatMapper;
+    private TbItemDescMapper tbItemDescMapper;
+
+    @Autowired
+    private TbItemCatMapper tbItemCatMapper;
+
 
     @Override
     public List<TbItem> selectAll() {
@@ -63,5 +70,31 @@ public class TbItemServiceImpl implements TbItemService {
             nodes.add(node);
         }
         return nodes;
+    }
+
+    @Override
+    public TaotaoResult addItem(TbItem item, String desc) {
+        long id = IDUtils.genItemId();
+        item.setId(id);
+        item.setUpdated(new Date());
+        item.setCreated(new Date());
+        //1-正常,2-下架,3-删除
+        item.setStatus((byte) 1);
+        int num1 = tbItemMapper.insert(item);
+
+        TbItemDesc tbItemDesc = new TbItemDesc();
+        tbItemDesc.setItemDesc(desc);
+        tbItemDesc.setCreated(new Date());
+        tbItemDesc.setUpdated(new Date());
+        tbItemDesc.setItemId(id);
+        int num2 = tbItemDescMapper.insert(tbItemDesc);
+
+        TaotaoResult result = null;
+        if(num1!=0 && num2 !=0){
+            result = TaotaoResult.build(200,"success");
+        }else {
+            result = TaotaoResult.build(400,"fail");
+        }
+        return result;
     }
 }
