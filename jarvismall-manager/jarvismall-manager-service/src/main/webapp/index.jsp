@@ -1,5 +1,5 @@
 <html>
 <body>
-<h2>Hello World! service</h2>
+<h2>Hello World! manager-service</h2>
 </body>
 </html>

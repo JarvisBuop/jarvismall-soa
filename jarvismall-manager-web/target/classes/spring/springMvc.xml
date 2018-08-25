@@ -62,4 +62,5 @@
     <dubbo:registry protocol="zookeeper" address="192.168.142.129:2181"/>
     <!--dubbo 通信接口,相当于aidl-->
     <dubbo:reference interface="com.jarvismall.service.TbItemService" id="itemService" />
+    <dubbo:reference interface="com.jarvismall.portal.service.CategoryService" id="categoryService" />
 </beans>

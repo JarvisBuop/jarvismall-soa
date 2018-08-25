@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
-    <file type="web" url="file://$PROJECT_DIR$/jarvismai-portal-web" />
     <file type="web" url="file://$PROJECT_DIR$/jarvismall-common" />
     <file type="web" url="file://$PROJECT_DIR$/jarvismall-manager" />
     <file type="web" url="file://$PROJECT_DIR$/jarvismall-manager-web" />
+    <file type="web" url="file://$PROJECT_DIR$/jarvismall-portal-web" />
+    <file type="web" url="file://$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-interface" />
+    <file type="web" url="file://$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-service" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/jarvismai-portal-web/jarvismai-lportal-web.iml" filepath="$PROJECT_DIR$/jarvismai-portal-web/jarvismai-lportal-web.iml" />
+      <module fileurl="file://D:\MyIdeaPro\jarvismall-parent\jarvismai-portal-web\jarvismai-lportal-web.iml" filepath="D:\MyIdeaPro\jarvismall-parent\jarvismai-portal-web\jarvismai-lportal-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/jarvismall-common/jarvismall-common.iml" filepath="$PROJECT_DIR$/jarvismall-common/jarvismall-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-dao/jarvismall-manager-dao.iml" filepath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-dao/jarvismall-manager-dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-interface/jarvismall-manager-interface.iml" filepath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-interface/jarvismall-manager-interface.iml" />
@@ -10,6 +10,10 @@
       <module fileurl="file://$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-service/jarvismall-manager-service.iml" filepath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-service/jarvismall-manager-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/jarvismall-manager-web/jarvismall-manager-web.iml" filepath="$PROJECT_DIR$/jarvismall-manager-web/jarvismall-manager-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/jarvismall-parent.iml" filepath="$PROJECT_DIR$/jarvismall-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jarvismall-portal/jarvismall-portal.iml" filepath="$PROJECT_DIR$/jarvismall-portal/jarvismall-portal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-interface/jarvismall-portal-interface.iml" filepath="$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-interface/jarvismall-portal-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-service/jarvismall-portal-service.iml" filepath="$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-service/jarvismall-portal-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jarvismall-portal-web/jarvismall-portal-web.iml" filepath="$PROJECT_DIR$/jarvismall-portal-web/jarvismall-portal-web.iml" />
       <module fileurl="file://D:\MyIdeaPro\jarvismall-parent\jarvismall-manager\jarvismallmanager.iml" filepath="D:\MyIdeaPro\jarvismall-parent\jarvismall-manager\jarvismallmanager.iml" />
     </modules>
   </component>

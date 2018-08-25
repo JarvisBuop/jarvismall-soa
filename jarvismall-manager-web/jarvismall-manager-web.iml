@@ -30,7 +30,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.11" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.12" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
     <orderEntry type="module" module-name="jarvismall-common" />
     <orderEntry type="library" name="Maven: joda-time:joda-time:2.5" level="project" />
@@ -49,6 +49,7 @@
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-log4j12:1.6.4" level="project" />
     <orderEntry type="module" module-name="jarvismall-manager-interface" />
     <orderEntry type="module" module-name="jarvismall-manager-pojo" />
+    <orderEntry type="module" module-name="jarvismall-portal-interface" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context:4.2.4.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-aop:4.2.4.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: aopalliance:aopalliance:1.0" level="project" />

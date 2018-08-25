@@ -14,6 +14,9 @@
         <module name="jarvismall-manager-pojo" />
         <module name="jarvismall-manager-service" />
         <module name="jarvismall-manager-web" />
+        <module name="jarvismall-portal-interface" />
+        <module name="jarvismall-portal-service" />
+        <module name="jarvismall-portal-web" />
         <module name="jarvismall-service" />
       </profile>
     </annotationProcessing>
@@ -28,6 +31,10 @@
       <module name="jarvismall-manager-service" target="1.7" />
       <module name="jarvismall-manager-web" target="1.7" />
       <module name="jarvismall-parent" target="1.7" />
+      <module name="jarvismall-portal" target="1.7" />
+      <module name="jarvismall-portal-interface" target="1.7" />
+      <module name="jarvismall-portal-service" target="1.7" />
+      <module name="jarvismall-portal-web" target="1.7" />
       <module name="jarvismall-service" target="1.7" />
     </bytecodeTargetLevel>
   </component>
