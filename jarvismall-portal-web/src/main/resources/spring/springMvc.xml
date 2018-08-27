@@ -13,7 +13,7 @@
     <context:property-placeholder  location="classpath:resource/resource.properties"/>
 
     <!-- @Controller注解扫描 -->
-    <context:component-scan base-package="com.jarvismail.portal.controller"></context:component-scan>
+    <context:component-scan base-package="com.jarvismall.portal.controller"></context:component-scan>
 
     <!-- 注解驱动: 替我们显示的配置了最新版的注解的处理器映射器和处理器适配器
     conversion-service="conversionService"-->
@@ -61,4 +61,5 @@
     <dubbo:registry protocol="zookeeper" address="192.168.142.129:2181"/>
     <!--dubbo 通信接口,相当于aidl-->
     <dubbo:reference interface="com.jarvismall.portal.service.CategoryService" id="categocyService" />
+    <dubbo:reference interface="com.jarvismall.portal.service.ContentService" id="contentService" />
 </beans>

@@ -2,241 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f741753d-9392-4465-b402-f3c3b0622e42" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismall-manager-web/src/main/java/com/jarvismall/controller/ContentController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismall-portal-web/target/tomcat/logs/access_log.2018-08-24" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-interface/jarvismall-portal-interface.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-interface/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-interface/src/main/java/com/jarvismall/portal/service/CategoryService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-service/jarvismall-portal-service.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-service/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-service/src/main/java/com/jarvismall/portal/service/impl/CategoryServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-service/src/main/resources/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-service/src/main/resources/mybatis/sqlMapConfig.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-service/src/main/resources/properties/db.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-service/src/main/resources/spring/applicationContext-dao.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-service/src/main/resources/spring/applicationContext-service.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-service/src/main/resources/spring/applicationContext-trans.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-service/src/main/webapp/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismall-portal/jarvismall-portal.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismall-portal/pom.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/target/tomcat/logs/access_log.2018-08-24" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/jarvismai_lportal_web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/jarvismai_lportal_web_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/jarvismai_portal_web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/jarvismai_portal_web_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/jarvismall_manager_web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/jarvismall_manager_web_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/java/com/jarvismall/portal/pojo/AdNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-interface/src/main/java/com/jarvismall/portal/service/ContentService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-service/src/main/java/com/jarvismall/portal/service/impl/ContentServiceImpl.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jarvismall-manager-web/target/tomcat/logs/access_log.2018-08-25" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-service/target/tomcat/logs/access_log.2018-08-25" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jarvismall-portal-web/target/classes/com/jarvismail/portal/controller/IndexController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-service/target/tomcat/logs/access_log.2018-08-25" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jarvismall-manager-web/target/classes/com/jarvismall/controller/ContentController.class" afterPath="$PROJECT_DIR$/jarvismall-manager-web/target/classes/com/jarvismall/controller/ContentController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jarvismall-manager-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/content_002dcategory_jsp.class" afterPath="$PROJECT_DIR$/jarvismall-manager-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/content_002dcategory_jsp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-interface/target/classes/com/jarvismall/portal/service/CategoryService.class" afterPath="$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-interface/target/classes/com/jarvismall/portal/service/CategoryService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-service/target/classes/com/jarvismall/portal/service/impl/CategoryServiceImpl.class" afterPath="$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-service/target/classes/com/jarvismall/portal/service/impl/CategoryServiceImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jarvismall-manager-web/jarvismall-manager-web.iml" afterPath="$PROJECT_DIR$/jarvismall-manager-web/jarvismall-manager-web.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jarvismall-manager-web/pom.xml" afterPath="$PROJECT_DIR$/jarvismall-manager-web/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jarvismall-manager-web/src/main/java/com/jarvismall/controller/ContentController.java" afterPath="$PROJECT_DIR$/jarvismall-manager-web/src/main/java/com/jarvismall/controller/ContentController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jarvismall-manager-web/src/main/resources/spring/springMvc.xml" afterPath="$PROJECT_DIR$/jarvismall-manager-web/src/main/resources/spring/springMvc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jarvismall-manager-web/src/main/webapp/WEB-INF/jsp/content-category.jsp" afterPath="$PROJECT_DIR$/jarvismall-manager-web/src/main/webapp/WEB-INF/jsp/content-category.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jarvismall-manager-web/target/classes/spring/springMvc.xml" afterPath="$PROJECT_DIR$/jarvismall-manager-web/target/classes/spring/springMvc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-dao/jarvismall-manager-dao.iml" afterPath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-dao/jarvismall-manager-dao.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-dao/pom.xml" afterPath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-dao/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-interface/pom.xml" afterPath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-interface/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-interface/src/main/java/com/jarvismall/service/TbItemService.java" afterPath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-interface/src/main/java/com/jarvismall/service/TbItemService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-service/src/main/java/com/jarvismall/service/impl/TbItemServiceImpl.java" afterPath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-service/src/main/java/com/jarvismall/service/impl/TbItemServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-service/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-service/src/main/webapp/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/jarvismai-portal-web.iml" afterPath="$PROJECT_DIR$/jarvismall-portal-web/jarvismall-portal-web.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/pom.xml" afterPath="$PROJECT_DIR$/jarvismall-portal-web/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/java/com/jarvismail/portal/controller/IndexController.java" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/java/com/jarvismail/portal/controller/IndexController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/resources/log4j.properties" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/resources/log4j.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/resources/resource/resource.properties" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/resources/resource/resource.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/resources/spring/springMvc.xml" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/resources/spring/springMvc.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/WEB-INF/jsp/commons/footer-links.jsp" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/WEB-INF/jsp/commons/footer-links.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/WEB-INF/jsp/commons/footer.jsp" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/WEB-INF/jsp/commons/footer.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/WEB-INF/jsp/commons/header.jsp" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/WEB-INF/jsp/commons/header.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/WEB-INF/jsp/commons/shortcut.jsp" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/WEB-INF/jsp/commons/shortcut.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/WEB-INF/jsp/error/exception.jsp" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/WEB-INF/jsp/error/exception.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/WEB-INF/jsp/index.jsp" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/WEB-INF/jsp/index.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/css/base.css" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/css/base.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/css/login.css" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/css/login.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/css/myjd.commentImg.css" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/css/myjd.commentImg.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/css/myjd.common.css" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/css/myjd.common.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/css/myjd.info.css" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/css/myjd.info.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/css/myjd.order.css" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/css/myjd.order.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/css/order-commons.css" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/css/order-commons.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/css/passport.base.css" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/css/passport.base.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/css/pop_compare.css" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/css/pop_compare.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/css/psearch.onebox.css" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/css/psearch.onebox.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/css/psearch20131008.css" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/css/psearch20131008.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/css/pshow.css" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/css/pshow.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/css/purchase.2012.css" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/css/purchase.2012.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/css/purchase.base.2012.css" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/css/purchase.base.2012.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/css/purchase.checkout.css" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/css/purchase.checkout.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/css/purchase.sop.css" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/css/purchase.sop.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/css/regist.personal.css" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/css/regist.personal.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/css/taotao.css" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/css/taotao.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/11.jpg" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/11.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/15.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/15.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/17.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/17.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/18.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/18.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/20111221C.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/20111221C.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/20120112B.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/20120112B.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/20120209D.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/20120209D.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/20130330A.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/20130330A.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/20130330A_2.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/20130330A_2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/20130330B_1.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/20130330B_1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/20130330C.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/20130330C.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/20130415i.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/20130415i.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/20130606B (1).png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/20130606B (1).png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/20130606B.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/20130606B.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/20130725.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/20130725.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/2013100701.gif" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/2013100701.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/2013100702.gif" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/2013100702.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/22.jpg" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/22.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/28.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/28.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/360_flash.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/360_flash.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/360_video.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/360_video.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/537b084eN94336622.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/537b084eN94336622.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/541f893aN662da9bc.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/541f893aN662da9bc.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/541fdd63Nab1b3c63.jpg" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/541fdd63Nab1b3c63.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/54238aaaN17189794.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/54238aaaN17189794.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/543b4d75N686689d7.jpg" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/543b4d75N686689d7.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/5440b1e4N8ff6d0fd.jpg" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/5440b1e4N8ff6d0fd.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/5440b1e7N1ade375b.jpg" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/5440b1e7N1ade375b.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/5440ce68Na00d019e.jpg" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/5440ce68Na00d019e.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/544a11d3Na5a3d566.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/544a11d3Na5a3d566.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/547e6a57N75c2f016.gif" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/547e6a57N75c2f016.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/549d03d0N59b1f026.jpg" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/549d03d0N59b1f026.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/8.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/8.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/backpanel20140708.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/backpanel20140708.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/bg20110922.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/bg20110922.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/bg_hotsale.gif" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/bg_hotsale.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/bg_prompt.gif" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/bg_prompt.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/bg_thickbox.gif" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/bg_thickbox.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/blank.gif" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/blank.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/btn-again.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/btn-again.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/btn-bg-1.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/btn-bg-1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/btn-check-20140627.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/btn-check-20140627.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/btn-submit-new.jpg" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/btn-submit-new.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/btn-submit.jpg" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/btn-submit.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/cart_corner_1.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/cart_corner_1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/checkout-title.gif" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/checkout-title.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/cicon.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/cicon.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/commstar.jpg" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/commstar.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/control-icon-20140521.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/control-icon-20140521.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/cue.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/cue.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/defaultImgs/1.jpg" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/defaultImgs/1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/defaultImgs/10.jpg" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/defaultImgs/10.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/defaultImgs/11.jpg" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/defaultImgs/11.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/defaultImgs/12.jpg" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/defaultImgs/12.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/defaultImgs/13.jpg" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/defaultImgs/13.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/defaultImgs/14.jpg" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/defaultImgs/14.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/defaultImgs/15.jpg" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/defaultImgs/15.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/defaultImgs/16.jpg" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/defaultImgs/16.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/defaultImgs/2.jpg" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/defaultImgs/2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/defaultImgs/3.jpg" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/defaultImgs/3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/defaultImgs/4.jpg" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/defaultImgs/4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/defaultImgs/5.jpg" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/defaultImgs/5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/defaultImgs/6.jpg" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/defaultImgs/6.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/defaultImgs/7.jpg" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/defaultImgs/7.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/defaultImgs/8.jpg" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/defaultImgs/8.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/defaultImgs/9.jpg" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/defaultImgs/9.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/error-3.gif" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/error-3.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/error-jd.gif" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/error-jd.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/error.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/error.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/errordog.jpg" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/errordog.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/floor-sort20131202.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/floor-sort20131202.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/flow.gif" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/flow.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/footprint-arr.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/footprint-arr.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/hover-btn.jpg" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/hover-btn.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/icon48.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/icon48.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/iconadd.jpg" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/iconadd.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/im20131028.gif" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/im20131028.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/index-jd-wx-qrcode.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/index-jd-wx-qrcode.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/index.showcase.tg.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/index.showcase.tg.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/layer-credit.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/layer-credit.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/loading-jd.gif" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/loading-jd.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/loading.gif" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/loading.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/login-all-bg.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/login-all-bg.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/logo-201305.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/logo-201305.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/m-buy.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/m-buy.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/more-slide.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/more-slide.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/my_cart_title.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/my_cart_title.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/myjd-bg2.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/myjd-bg2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/myjd-common-icon.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/myjd-common-icon.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/myjd-new-ico.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/myjd-new-ico.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/newicon20140417.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/newicon20140417.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/one4.jpg" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/one4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/one5.jpg" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/one5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/one6.jpg" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/one6.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/order-icon-20140811.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/order-icon-20140811.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/p-btns-20140611.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/p-btns-20140611.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/perfect_bg.jpg" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/perfect_bg.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/phone-bg.jpg" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/phone-bg.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/promise20141021.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/promise20141021.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/purchase-icon.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/purchase-icon.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/pwdstrength.gif" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/pwdstrength.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/qr-code-sao.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/qr-code-sao.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/qr-code-sao02.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/qr-code-sao02.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/rBEhV1I2yiUIAAAAAADKL7RWKf8AADQDQOQekkAAMpH341.jpg" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/rBEhV1I2yiUIAAAAAADKL7RWKf8AADQDQOQekkAAMpH341.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/rBEhV1NXYLYIAAAAAADGO8-wV-UAAMfdgNi-BAAAMZT367.jpg" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/rBEhV1NXYLYIAAAAAADGO8-wV-UAAMfdgNi-BAAAMZT367.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/rank-sh.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/rank-sh.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/rank2014.gif" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/rank2014.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/regist-btn.jpg" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/regist-btn.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/regist-word.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/regist-word.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/share.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/share.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/step1.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/step1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/step2.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/step2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/sucess.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/sucess.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/swfupload.swf" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/swfupload.swf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/tab.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/tab.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/taotao-logo.gif" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/taotao-logo.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/thickbox_close.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/thickbox_close.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/tip-arrow.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/tip-arrow.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/tip-cue.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/tip-cue.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/toggler-arrow.gif" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/toggler-arrow.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/update.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/update.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/user_purchase.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/user_purchase.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/vip.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/vip.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/virtuals-20140606.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/virtuals-20140606.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/virtuals-cat-ico20140826.png" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/virtuals-cat-ico20140826.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/wait-btn.jpg" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/wait-btn.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/images/yzm.jpg" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/images/yzm.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/js/CommentStar.js" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/js/CommentStar.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/js/base-2011.js" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/js/base-2011.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/js/base-v1.js" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/js/base-v1.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/js/base.js" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/js/base.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/js/calendar.js" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/js/calendar.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/js/cart.js" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/js/cart.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/js/home.js" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/js/home.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/js/iplocation_server.js" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/js/iplocation_server.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/js/jTips.js" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/js/jTips.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/js/jquery-1.6.4.js" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/js/jquery-1.6.4.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/js/jquery-extend.js" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/js/jquery-extend.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/js/jquery.checkout.js" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/js/jquery.checkout.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/js/jquery.cookie.js" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/js/jquery.cookie.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/js/jquery.hashchange.js" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/js/jquery.hashchange.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/js/jquery.price_format.2.0.min.js" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/js/jquery.price_format.2.0.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/js/lib-v1.js" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/js/lib-v1.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/js/order.common.js" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/js/order.common.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/js/product.js" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/js/product.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/js/search_main.js" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/js/search_main.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/js/taotao.js" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/js/taotao.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/target/classes/com/jarvismail/portal/controller/IndexController.class" afterPath="$PROJECT_DIR$/jarvismall-portal-web/target/classes/com/jarvismail/portal/controller/IndexController.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/target/classes/log4j.properties" afterPath="$PROJECT_DIR$/jarvismall-portal-web/target/classes/log4j.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/target/classes/resource/resource.properties" afterPath="$PROJECT_DIR$/jarvismall-portal-web/target/classes/resource/resource.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/target/classes/spring/springMvc.xml" afterPath="$PROJECT_DIR$/jarvismall-portal-web/target/classes/spring/springMvc.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/jarvismall-portal-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/jarvismall-portal-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/target/tomcat/conf/logging.properties" afterPath="$PROJECT_DIR$/jarvismall-portal-web/target/tomcat/conf/logging.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/target/tomcat/conf/tomcat-users.xml" afterPath="$PROJECT_DIR$/jarvismall-portal-web/target/tomcat/conf/tomcat-users.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/target/tomcat/conf/web.xml" afterPath="$PROJECT_DIR$/jarvismall-portal-web/target/tomcat/conf/web.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/commons/footer_002dlinks_jsp.class" afterPath="$PROJECT_DIR$/jarvismall-portal-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/commons/footer_002dlinks_jsp.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/commons/footer_002dlinks_jsp.java" afterPath="$PROJECT_DIR$/jarvismall-portal-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/commons/footer_002dlinks_jsp.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/commons/footer_jsp.class" afterPath="$PROJECT_DIR$/jarvismall-portal-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/commons/footer_jsp.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/commons/footer_jsp.java" afterPath="$PROJECT_DIR$/jarvismall-portal-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/commons/footer_jsp.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/commons/header_jsp.class" afterPath="$PROJECT_DIR$/jarvismall-portal-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/commons/header_jsp.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/commons/header_jsp.java" afterPath="$PROJECT_DIR$/jarvismall-portal-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/commons/header_jsp.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/commons/shortcut_jsp.class" afterPath="$PROJECT_DIR$/jarvismall-portal-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/commons/shortcut_jsp.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/commons/shortcut_jsp.java" afterPath="$PROJECT_DIR$/jarvismall-portal-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/commons/shortcut_jsp.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/index_jsp.class" afterPath="$PROJECT_DIR$/jarvismall-portal-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/index_jsp.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismai-portal-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/index_jsp.java" afterPath="$PROJECT_DIR$/jarvismall-portal-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/index_jsp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jarvismall-manager-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/content_002dcategory_jsp.java" afterPath="$PROJECT_DIR$/jarvismall-manager-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/content_002dcategory_jsp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jarvismall-manager-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/content_jsp.java" afterPath="$PROJECT_DIR$/jarvismall-manager-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/content_jsp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jarvismall-manager-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/index_jsp.java" afterPath="$PROJECT_DIR$/jarvismall-manager-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/index_jsp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-dao/src/main/java/com/jarvismall/mapper/TbContentCategoryMapper.xml" afterPath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-dao/src/main/java/com/jarvismall/mapper/TbContentCategoryMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-dao/target/classes/com/jarvismall/mapper/TbContentCategoryMapper.xml" afterPath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-dao/target/classes/com/jarvismall/mapper/TbContentCategoryMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jarvismall-portal-web/src/main/resources/spring/springMvc.xml" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/resources/spring/springMvc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-interface/src/main/java/com/jarvismall/portal/service/CategoryService.java" afterPath="$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-interface/src/main/java/com/jarvismall/portal/service/CategoryService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-service/src/main/java/com/jarvismall/portal/service/impl/CategoryServiceImpl.java" afterPath="$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-service/src/main/java/com/jarvismall/portal/service/impl/CategoryServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-service/src/main/resources/spring/applicationContext-service.xml" afterPath="$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-service/src/main/resources/spring/applicationContext-service.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-service/target/classes/spring/applicationContext-service.xml" afterPath="$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-service/target/classes/spring/applicationContext-service.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jarvismall-portal-web/src/main/java/com/jarvismail/portal/controller/IndexController.java" afterPath="$PROJECT_DIR$/jarvismall-portal-web/src/main/java/com/jarvismall/portal/controller/IndexController.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -276,15 +72,46 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/WEB-INF/jsp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="40" column="1033" lean-forward="true" selection-start-line="40" selection-start-column="1033" selection-end-line="40" selection-end-column="1033" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IndexController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jarvismall-portal-web/src/main/java/com/jarvismall/portal/controller/IndexController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jarvismall-portal-web/src/main/java/com/jarvismall/portal/pojo/AdNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
         <option value="Tag Library Descriptor" />
         <option value="Xml File" />
         <option value="Interface" />
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -318,7 +145,12 @@
       <find>contentCategory</find>
       <find>parentId</find>
       <find>categoryServiceImpl</find>
+      <find>e</find>
+      <find>node</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -334,12 +166,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-pojo/src/main/java/com/jarvismall/pojo/TbOrderItem.java" />
-        <option value="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-pojo/src/main/java/com/jarvismall/pojo/TbOrderShipping.java" />
-        <option value="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-pojo/src/main/java/com/jarvismall/pojo/TbUser.java" />
-        <option value="$PROJECT_DIR$/jarvismall-manager-web/src/main/webapp/WEB-INF/jsp/index.jsp" />
-        <option value="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-service/src/main/resources/mybatis/sqlMapConfig.xml" />
-        <option value="$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/Test.java" />
         <option value="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-service/src/test/java/TestPageHelper.java" />
         <option value="$PROJECT_DIR$/jarvismall-manager-web/src/test/java/TestFastDFS.java" />
         <option value="$PROJECT_DIR$/jarvismall-manager-web/src/main/resources/resource/client.conf" />
@@ -379,12 +205,18 @@
         <option value="$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-interface/src/main/java/com/jarvismall/service/CategoryService.java" />
         <option value="$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-interface/src/main/java/CategoryService.java" />
         <option value="$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-service/src/main/java/CategoryServiceImpl.java" />
-        <option value="$PROJECT_DIR$/jarvismall-manager-web/src/main/java/com/jarvismall/controller/ContentController.java" />
-        <option value="$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-service/src/main/resources/spring/applicationContext-service.xml" />
+        <option value="$PROJECT_DIR$/jarvismall-manager-web/src/main/webapp/WEB-INF/jsp/content-category.jsp" />
+        <option value="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-dao/src/main/java/com/jarvismall/mapper/TbContentCategoryMapper.xml" />
         <option value="$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-interface/src/main/java/com/jarvismall/portal/service/CategoryService.java" />
         <option value="$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-service/src/main/java/com/jarvismall/portal/service/impl/CategoryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-interface/src/main/java/com/jarvismall/portal/service/ContentService.java" />
         <option value="$PROJECT_DIR$/jarvismall-manager-web/src/main/resources/spring/springMvc.xml" />
+        <option value="$PROJECT_DIR$/jarvismall-manager-web/src/main/java/com/jarvismall/controller/ContentController.java" />
+        <option value="$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-service/src/main/resources/spring/applicationContext-service.xml" />
+        <option value="$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-service/src/main/java/com/jarvismall/portal/service/impl/ContentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/jarvismall-portal-web/src/main/java/com/jarvismall/portal/controller/IndexController.java" />
         <option value="$PROJECT_DIR$/jarvismall-portal-web/src/main/resources/spring/springMvc.xml" />
+        <option value="$PROJECT_DIR$/jarvismall-portal-web/src/main/java/com/jarvismall/portal/pojo/AdNode.java" />
       </list>
     </option>
   </component>
@@ -428,8 +260,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -440,6 +272,86 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="jarvismall-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jarvismall-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jarvismall-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jarvismall-portal-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jarvismall-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jarvismall-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jarvismall-portal-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jarvismall-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jarvismall-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jarvismall-portal-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jarvismall-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jarvismall-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jarvismall-portal" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1153,7 +1065,8 @@
       <workItem from="1534461536574" duration="5524000" />
       <workItem from="1534499251974" duration="23184000" />
       <workItem from="1534808211770" duration="28712000" />
-      <workItem from="1535180450772" duration="10319000" />
+      <workItem from="1535180450772" duration="11254000" />
+      <workItem from="1535249656260" duration="15813000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1534338139361</created>
@@ -1195,7 +1108,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97363000" />
+    <option name="totallyTimeSpent" value="114111000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1208,6 +1121,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="3" y="1" width="1715" height="1046" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1222,16 +1136,15 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39956093" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2741228" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45504385" sideWeight="0.4978488" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3497807" sideWeight="0.4978488" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33333334" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23927492" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23355263" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24229607" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1241,6 +1154,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24954683" sideWeight="0.24122807" order="8" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2741228" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1265,77 +1179,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jarvismall-common/src/main/java/com/jarvismall/pojo/TaotaoResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <caret line="23" column="24" lean-forward="false" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jarvismai-portal-web/src/main/webapp/index.jsp" />
-    <entry file="file://$PROJECT_DIR$/jarvismai-portal-web/src/main/resources/resource/client.conf" />
-    <entry file="file://$PROJECT_DIR$/jarvismall-common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jarvismall-manager-web/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="51" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="45" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/WEB-INF/jsp/error/exception.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jarvismall-manager-web/src/main/java/com/jarvismall/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jarvismall-manager-web/src/main/webapp/WEB-INF/jsp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jarvismall-manager/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="19" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="27" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-dao/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1356,7 +1199,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1380,7 +1222,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1396,7 +1237,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1408,19 +1248,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/WEB-INF/jsp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="40" column="1218" lean-forward="false" selection-start-line="40" selection-start-column="1218" selection-end-line="40" selection-end-column="1218" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-service/jarvismall-portal-service.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1436,15 +1267,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-dao/src/main/java/com/jarvismall/mapper/TbContentCategoryMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1452,7 +1274,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1460,7 +1281,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-85">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1476,7 +1296,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1496,24 +1315,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jarvismall-portal-web/src/main/java/com/jarvismail/portal/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jarvismall-portal-web/src/main/java/com/jarvismail/portal/controller/ContentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/jarvismall-portal-web/src/main/java/com/jarvismail/portal/controller/ContentController.java" />
     <entry file="file://$PROJECT_DIR$/jarvismall-manager-web/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -1522,14 +1324,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-interface/src/main/java/com/jarvismall/service/CategoryService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-interface/src/main/java/com/jarvismall/service/CategoryService.java" />
     <entry file="file://$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-service/src/main/resources/spring/applicationContext-dao.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -1546,30 +1341,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-service/src/main/java/com/jarvismall/service/impl/CategoryServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-service/src/main/java/com/jarvismall/service/impl/CategoryServiceImpl.java" />
     <entry file="file://$PROJECT_DIR$/jarvismall-manager-web/src/main/java/com/jarvismall/controller/TbItemController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jarvismall-manager-web/src/main/java/com/jarvismall/controller/ContentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="21" column="36" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1582,24 +1360,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-service/src/main/java/com/jarvismall/portal/service/impl/CategoryServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-service/src/main/resources/spring/applicationContext-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-interface/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1608,19 +1368,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jarvismall-manager-web/src/main/webapp/WEB-INF/jsp/content-category.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-interface/src/main/java/com/jarvismall/service/TbItemService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1628,7 +1379,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1241">
           <caret line="88" column="33" lean-forward="false" selection-start-line="88" selection-start-column="33" selection-end-line="88" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1640,26 +1390,194 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-interface/src/main/java/com/jarvismall/portal/service/CategoryService.java">
+    <entry file="file://$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-dao/src/main/java/com/jarvismall/mapper/TbContentCategoryMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="106" column="29" lean-forward="true" selection-start-line="106" selection-start-column="29" selection-end-line="106" selection-end-column="29" />
+          <folding>
+            <marker date="1535265144470" expanded="true" signature="3826:3940" ph="select from tb_content_category" />
+            <marker date="1535265144470" expanded="true" signature="4024:4092" ph="delete from " />
+            <marker date="1535265144470" expanded="true" signature="4203:4234" ph="delete from " />
+            <marker date="1535265144470" expanded="true" signature="4534:4901" ph="insert into tb_content_category... " />
+            <marker date="1535265144470" expanded="true" signature="4566:4901" ph="(id, parent_... " />
+            <marker date="1535265144470" expanded="true" signature="6594:6634" ph="select count... tb_content_category" />
+            <marker date="1535265144470" expanded="true" signature="7877:8311" ph="update tb_co... " />
+            <marker date="1535265144470" expanded="true" signature="8530:9275" ph="update tb_co... " />
+            <marker date="1535265144470" expanded="true" signature="9382:9763" ph="update tb_co... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarvismall-common/src/main/java/com/jarvismall/pojo/TaotaoResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-service/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarvismall-manager-web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="8" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="18" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarvismall-manager-web/src/main/java/com/jarvismall/controller/IndexController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+          <folding>
+            <element signature="e#386#387#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-dao/src/main/java/com/jarvismall/mapper/TbContentCategoryMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="28" column="8" lean-forward="false" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-pojo/src/main/java/com/jarvismall/pojo/TbContentCategory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-service/src/main/java/com/jarvismall/portal/service/impl/CategoryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="85" column="44" lean-forward="true" selection-start-line="85" selection-start-column="44" selection-end-line="85" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarvismall-manager-web/src/main/webapp/WEB-INF/jsp/content-category.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-245">
+          <caret line="24" column="10" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-interface/src/main/java/com/jarvismall/portal/service/CategoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="51" lean-forward="true" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jarvismall-manager-web/src/main/resources/spring/springMvc.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="63" column="65" lean-forward="false" selection-start-line="63" selection-start-column="65" selection-end-line="63" selection-end-column="65" />
+        <state relative-caret-position="478">
+          <caret line="59" column="22" lean-forward="true" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-service/src/main/resources/spring/applicationContext-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-interface/src/main/java/com/jarvismall/portal/service/ContentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarvismall-manager-web/src/main/webapp/WEB-INF/jsp/content.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="95" column="41" lean-forward="true" selection-start-line="95" selection-start-column="41" selection-end-line="95" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-service/src/main/java/com/jarvismall/portal/service/impl/ContentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="15" column="59" lean-forward="false" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarvismall-manager-web/src/main/webapp/WEB-INF/jsp/content-add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="68" column="24" lean-forward="false" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarvismall-manager-web/src/main/java/com/jarvismall/controller/ContentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="28" column="12" lean-forward="false" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1761#1762#0" expanded="true" />
+            <element signature="e#1825#1826#0" expanded="true" />
+            <element signature="e#1933#1934#0" expanded="true" />
+            <element signature="e#1995#1996#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jarvismall-portal-web/src/main/resources/spring/springMvc.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="51" column="62" lean-forward="true" selection-start-line="51" selection-start-column="62" selection-end-line="51" selection-end-column="62" />
+        <state relative-caret-position="-340">
+          <caret line="19" column="52" lean-forward="true" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarvismall-portal-web/src/main/java/com/jarvismall/portal/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarvismall-portal-web/src/main/java/com/jarvismall/portal/pojo/AdNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarvismall-portal-web/src/main/webapp/WEB-INF/jsp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="40" column="1033" lean-forward="true" selection-start-line="40" selection-start-column="1033" selection-end-line="40" selection-end-column="1033" />
           <folding />
         </state>
       </provider>

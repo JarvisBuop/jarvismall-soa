@@ -1,4 +1,4 @@
-package com.jarvismail.portal.controller;
+package com.jarvismall.portal.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

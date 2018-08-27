@@ -63,4 +63,5 @@
     <!--dubbo 通信接口,相当于aidl-->
     <dubbo:reference interface="com.jarvismall.service.TbItemService" id="itemService" />
     <dubbo:reference interface="com.jarvismall.portal.service.CategoryService" id="categoryService" />
+    <dubbo:reference interface="com.jarvismall.portal.service.ContentService" id="contentService" />
 </beans>
