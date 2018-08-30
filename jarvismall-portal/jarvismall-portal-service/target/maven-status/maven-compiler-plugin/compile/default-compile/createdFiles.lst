@@ -1,2 +1,5 @@
+com\jarvismall\jedis\JedisClientPool.class
 com\jarvismall\portal\service\impl\ContentServiceImpl.class
 com\jarvismall\portal\service\impl\CategoryServiceImpl.class
+com\jarvismall\jedis\JedisClient.class
+com\jarvismall\jedis\JedisClientCluster.class
