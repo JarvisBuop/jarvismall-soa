@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.jarvismall.search.mapper.SearchItemMapper" >
+    <select id="getItemList" resultType="com.jarvismall.pojo.SearchItem">
+      SELECT
+          ti.id,ti.title,ti.sell_point,ti.price,ti.image,td.item_desc,tc.name categoty_name
+      FROM
+          tb_item ti
+      INNER JOIN tb_item_desc td
+      INNER JOIN tb_item_cat tc
+      ON ti.id = td.item_id
+      AND ti.cid = tc.id
+      AND ti.status=1
+    </select>
+</mapper>

@@ -17,6 +17,9 @@
         <module name="jarvismall-portal-interface" />
         <module name="jarvismall-portal-service" />
         <module name="jarvismall-portal-web" />
+        <module name="jarvismall-search-interface" />
+        <module name="jarvismall-search-service" />
+        <module name="jarvismall-search-web" />
         <module name="jarvismall-service" />
       </profile>
     </annotationProcessing>
@@ -35,6 +38,10 @@
       <module name="jarvismall-portal-interface" target="1.7" />
       <module name="jarvismall-portal-service" target="1.7" />
       <module name="jarvismall-portal-web" target="1.7" />
+      <module name="jarvismall-search" target="1.7" />
+      <module name="jarvismall-search-interface" target="1.7" />
+      <module name="jarvismall-search-service" target="1.7" />
+      <module name="jarvismall-search-web" target="1.7" />
       <module name="jarvismall-service" target="1.7" />
     </bytecodeTargetLevel>
   </component>

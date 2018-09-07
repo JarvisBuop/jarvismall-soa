@@ -7,6 +7,8 @@
     <file type="web" url="file://$PROJECT_DIR$/jarvismall-portal-web" />
     <file type="web" url="file://$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-interface" />
     <file type="web" url="file://$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-service" />
+    <file type="web" url="file://$PROJECT_DIR$/jarvismall-search-web" />
+    <file type="web" url="file://$PROJECT_DIR$/jarvismall-search/jarvismall-search-service" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">

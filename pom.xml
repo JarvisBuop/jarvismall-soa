@@ -305,6 +305,8 @@
         <module>jarvismall-manager-web</module>
         <module>jarvismall-portal-web</module>
         <module>jarvismall-portal</module>
+        <module>jarvismall-search</module>
+        <module>jarvismall-search-web</module>
     </modules>
 
 

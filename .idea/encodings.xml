@@ -13,6 +13,10 @@
     <file url="file://$PROJECT_DIR$/jarvismall-portal-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-interface" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jarvismall-search" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jarvismall-search-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jarvismall-search/jarvismall-search-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jarvismall-search/jarvismall-search-service" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
