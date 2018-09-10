@@ -65,7 +65,10 @@
 
     <build>
         <finalName>jarvismall-manager-dao</finalName>
-
+        <!--org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.jarvismall.search.mapper.SearchItemMapper.getItemList
+         java可以编译成class,复制到目标目录;
+         因为maven默认是不发布xml到目标目录的，因此，你需要在你的pom.xml的<build></build>里面
+         表示编译时将xml的配置文件也编译到目标目录;-->
         <resources>
             <resource>
                 <directory>src/main/java</directory>

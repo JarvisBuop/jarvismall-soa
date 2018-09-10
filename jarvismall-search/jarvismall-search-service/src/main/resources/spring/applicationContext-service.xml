@@ -10,7 +10,7 @@
 	http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.0.xsd
 	http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
 
-    <!-- @Service扫描 -->
+    <!-- @Service扫描 , component-->
     <context:component-scan base-package="com.jarvismall.search.service"></context:component-scan>
 
     <!-- 发布dubbo服务 -->
@@ -22,5 +22,5 @@
     <dubbo:protocol name="dubbo" port="20882" />
 
     <!-- 声明需要暴露的服务接口 dubbo 通信接口,相当于aidl -->
-    <!--<dubbo:service interface="com.jarvismall.search.service.CategoryService" ref="categoryServiceImpl" timeout="300000"/>-->
+    <dubbo:service interface="com.jarvismall.search.service.SearchItemService" ref="searchItemServiceImpl" timeout="300000"/>
 </beans>

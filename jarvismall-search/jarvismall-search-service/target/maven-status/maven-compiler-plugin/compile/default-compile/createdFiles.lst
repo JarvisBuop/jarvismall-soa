@@ -1,0 +1,3 @@
+com\jarvismall\search\mapper\SearchItemMapper.class
+com\jarvismall\search\dao\SearchDao.class
+com\jarvismall\search\service\impl\SearchItemServiceImpl.class

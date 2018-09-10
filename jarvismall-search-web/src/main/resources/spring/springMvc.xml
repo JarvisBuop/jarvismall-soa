@@ -20,11 +20,11 @@
     <mvc:annotation-driven ></mvc:annotation-driven>
 
     <!-- 防止 No mapping found -->
-    <!--<mvc:resources mapping="/css/**" location="/css/" />-->
-    <!--<mvc:resources mapping="/js/**" location="/js/" />-->
-    <!--<mvc:resources mapping="/images/**" location="/js/" />-->
-    <!--<mvc:resources mapping="/*.html" location="/WEB-INF/jsp/" />-->
-    <!--<mvc:resources mapping="/*.jsp" location="/WEB-INF/jsp/" />-->
+    <mvc:resources mapping="/css/**" location="/css/" />
+    <mvc:resources mapping="/js/**" location="/js/" />
+    <mvc:resources mapping="/images/**" location="/js/" />
+    <mvc:resources mapping="/*.html" location="/WEB-INF/jsp/" />
+    <mvc:resources mapping="/*.jsp" location="/WEB-INF/jsp/" />
     <!-- 多媒体解析器 -->
     <!-- 配置文件上传解析器 -->
     <bean id="multipartResolver"
@@ -60,5 +60,5 @@
     <dubbo:application name="jarvismall-search-web"/>
     <dubbo:registry protocol="zookeeper" address="192.168.142.129:2181"/>
     <!--dubbo 通信接口,相当于aidl-->
-    <!--<dubbo:reference interface="com.jarvismall.search.service.CategoryService" id="categocyService" />-->
+    <dubbo:reference interface="com.jarvismall.search.service.SearchItemService" id="searchItemService" />
 </beans>

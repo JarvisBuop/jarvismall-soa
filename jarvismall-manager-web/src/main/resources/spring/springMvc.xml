@@ -64,4 +64,5 @@
     <dubbo:reference interface="com.jarvismall.service.TbItemService" id="itemService" />
     <dubbo:reference interface="com.jarvismall.portal.service.CategoryService" id="categoryService" />
     <dubbo:reference interface="com.jarvismall.portal.service.ContentService" id="contentService" />
+    <dubbo:reference interface="com.jarvismall.search.service.SearchItemService" id="searchItemService" />
 </beans>

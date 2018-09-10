@@ -34,6 +34,7 @@
 
     <!-- 切面 -->
     <aop:config>
+        <!--<aop:pointcut id="pointcut" expression="execution(* com.jarvismall.service.*.*(..))"/>-->
         <aop:advisor advice-ref="txAdvice"
                      pointcut="execution(* com.jarvismall.service.*.*(..))" />
     </aop:config>

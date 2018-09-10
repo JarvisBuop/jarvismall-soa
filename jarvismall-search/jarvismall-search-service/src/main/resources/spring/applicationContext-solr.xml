@@ -10,4 +10,8 @@
     <bean name="httpSolrServer" class="org.apache.solr.client.solrj.impl.HttpSolrServer" >
         <constructor-arg name="baseURL" value="http://192.168.142.129:8080/solr/collection1"/>
     </bean>
+
+    <bean name="searchDao" class="com.jarvismall.search.dao.SearchDao">
+
+    </bean>
 </beans>
