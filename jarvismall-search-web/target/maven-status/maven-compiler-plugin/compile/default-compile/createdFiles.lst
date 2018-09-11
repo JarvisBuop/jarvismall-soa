@@ -1,2 +1,3 @@
+com\jarvismall\search\exception\GlobalExceptionResolver.class
 com\jarvismall\search\controller\SearchIndexController.class
 com\jarvismall\search\utils\CharSetUtils.class

@@ -23,6 +23,7 @@ public class SearchIndexController {
                          @RequestParam(defaultValue = "1") Integer page,
                          @RequestParam(defaultValue = "10") Integer rows,
                          Model model) {
+//        int a = 1/0;
         queryString = CharSetUtils.convert(queryString);
         SearchResult result = searchItemService.getSearchItemsBySolrQuery(queryString,page,rows);
         model.addAttribute("query", queryString);

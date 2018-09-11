@@ -7,11 +7,16 @@
 	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd
 	http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.0.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.0.xsd
 	http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.0.xsd">
-    <bean name="httpSolrServer" class="org.apache.solr.client.solrj.impl.HttpSolrServer" >
-        <constructor-arg name="baseURL" value="http://192.168.142.129:8080/solr/collection1"/>
+
+    <!--<bean name="httpSolrServer" class="org.apache.solr.client.solrj.impl.HttpSolrServer" >-->
+        <!--<constructor-arg name="baseURL" value="http://192.168.142.129:8080/solr/collection1"/>-->
+    <!--</bean>-->
+
+    <bean name="cloudSolrServer" class="org.apache.solr.client.solrj.impl.CloudSolrServer" >
+        <constructor-arg name="zkHost" value="192.168.142.129:2182,192.168.142.129:2183,192.168.142.129:2184" />
+        <property name="defaultCollection" value="collection2"/>
     </bean>
 
-    <bean name="searchDao" class="com.jarvismall.search.dao.SearchDao">
-
-    </bean>
+    <!--此处可将宝扫描改大,就不用定义searchDao 到Spring容器中了-->
+    <bean name="searchDao" class="com.jarvismall.search.dao.SearchDao"/>
 </beans>

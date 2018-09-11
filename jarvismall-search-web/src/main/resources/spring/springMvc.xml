@@ -56,6 +56,10 @@
         <!--</property>-->
     <!--</bean>-->
 
+
+    <!--配置全局异常处理器-->
+    <bean class="com.jarvismall.search.exception.GlobalExceptionResolver"/>
+
     <!-- 引用dubbo服务 -->
     <dubbo:application name="jarvismall-search-web"/>
     <dubbo:registry protocol="zookeeper" address="192.168.142.129:2181"/>
