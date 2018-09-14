@@ -11,4 +11,6 @@ import java.util.List;
 public interface SearchItemMapper  {
     //获取搜索的所有数据,导入到solr;
     List<SearchItem> getItemList();
+    //activemq查找更新solr;
+    SearchItem getItemById(long itemId);
 }

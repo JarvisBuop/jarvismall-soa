@@ -12,4 +12,17 @@
       AND ti.cid = tc.id
       AND ti.status=1
     </select>
+
+    <select id="getItemById" parameterType="long" resultType="com.jarvismall.pojo.SearchItem">
+        SELECT
+        ti.id,ti.title,ti.sell_point,ti.price,ti.image,td.item_desc,tc.name categoty_name
+        FROM
+        tb_item ti
+        INNER JOIN tb_item_desc td
+        INNER JOIN tb_item_cat tc
+        ON ti.id = td.item_id
+        AND ti.cid = tc.id
+        AND ti.status=1
+        AND ti.id=#{itemId}
+    </select>
 </mapper>

@@ -9,8 +9,13 @@ import com.jarvismall.pojo.*;
 import com.jarvismall.service.TbItemService;
 import com.jarvismall.utils.IDUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.jms.core.JmsTemplate;
+import org.springframework.jms.core.MessageCreator;
 import org.springframework.stereotype.Service;
 
+import javax.annotation.Resource;
+import javax.jms.*;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -29,6 +34,12 @@ public class TbItemServiceImpl implements TbItemService {
     @Autowired
     private TbItemCatMapper tbItemCatMapper;
 
+    @Autowired
+    private JmsTemplate template;
+
+//    @Autowired
+    @Resource(name = "activeMQTopic")
+    private Destination destination;
 
     @Override
     public List<TbItem> selectAll() {
@@ -61,12 +72,12 @@ public class TbItemServiceImpl implements TbItemService {
         criteria.andParentIdEqualTo(id);
         List<TbItemCat> tbItemCats = tbItemCatMapper.selectByExample(example);
         List<EasyUiTreeNode> nodes = new ArrayList<>();
-        for(TbItemCat cat : tbItemCats){
+        for (TbItemCat cat : tbItemCats) {
             EasyUiTreeNode node = new EasyUiTreeNode();
             node.setText(cat.getName());
             node.setId(cat.getId());
             //有子节点closed,没有子节点open;
-            node.setState(cat.getIsParent()?"closed":"open");
+            node.setState(cat.getIsParent() ? "closed" : "open");
             nodes.add(node);
         }
         return nodes;
@@ -74,7 +85,7 @@ public class TbItemServiceImpl implements TbItemService {
 
     @Override
     public TaotaoResult addItem(TbItem item, String desc) {
-        long id = IDUtils.genItemId();
+        final long id = IDUtils.genItemId();
         item.setId(id);
         item.setUpdated(new Date());
         item.setCreated(new Date());
@@ -90,10 +101,20 @@ public class TbItemServiceImpl implements TbItemService {
         int num2 = tbItemDescMapper.insert(tbItemDesc);
 
         TaotaoResult result = null;
-        if(num1!=0 && num2 !=0){
-            result = TaotaoResult.build(200,"success");
-        }else {
-            result = TaotaoResult.build(400,"fail");
+        if (num1 != 0 && num2 != 0) {
+            //使用activiemq发送添加商品消息;
+            template.send(destination, new MessageCreator() {
+                @Override
+                public Message createMessage(Session session) throws JMSException {
+                    ActivieMqBundle bundle = new ActivieMqBundle(id+"",null);
+                    TextMessage textMessage = session.createTextMessage(ActivieMqBundle.createJson(bundle));
+                    return textMessage;
+                }
+            });
+
+            result = TaotaoResult.build(200, "success");
+        } else {
+            result = TaotaoResult.build(400, "fail");
         }
         return result;
     }

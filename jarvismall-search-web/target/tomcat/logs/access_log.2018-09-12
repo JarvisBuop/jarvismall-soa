@@ -1,2 +1,0 @@
-0:0:0:0:0:0:0:1 - - [12/Sep/2018:08:15:28 +0800] "GET /search.html?q=cloud HTTP/1.1" 200 9449 http-bio-8101-exec-4 59
-0:0:0:0:0:0:0:1 - - [12/Sep/2018:08:15:28 +0800] "GET /css/order-commons.css HTTP/1.1" 200 16384 http-bio-8101-exec-4 3

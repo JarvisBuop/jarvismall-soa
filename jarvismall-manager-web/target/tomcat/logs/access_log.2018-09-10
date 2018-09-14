@@ -1,3 +1,0 @@
-0:0:0:0:0:0:0:1 - - [10/Sep/2018:23:19:33 +0800] "GET /js/common.js HTTP/1.1" 200 7793 http-bio-8081-exec-6 16
-0:0:0:0:0:0:0:1 - - [10/Sep/2018:23:19:33 +0800] "GET /js/jquery-easyui-1.4.1/themes/default/images/blank.gif HTTP/1.1" 200 43 http-bio-8081-exec-1 4
-0:0:0:0:0:0:0:1 - - [10/Sep/2018:23:19:33 +0800] "GET /favicon.ico HTTP/1.1" 404 997 http-bio-8081-exec-9 7

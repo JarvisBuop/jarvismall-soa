@@ -10,6 +10,8 @@
 	http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.0.xsd
 	http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
 
+    <!--发送消息-->
+
     <!--activemq 的具体实现类;-->
     <bean id="targetConnectionFactory" class="org.apache.activemq.ActiveMQConnectionFactory">
         <constructor-arg name="brokerURL" value="tcp://192.168.142.129:61616"/>

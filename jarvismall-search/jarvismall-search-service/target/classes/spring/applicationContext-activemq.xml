@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context" xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd
+	http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.0.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.0.xsd
+	http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.0.xsd
+	http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+    <!--接受消息-->
+
+    <!--activemq 的具体实现类;-->
+    <bean id="targetConnectionFactory" class="org.apache.activemq.ActiveMQConnectionFactory">
+        <constructor-arg name="brokerURL" value="tcp://192.168.142.129:61616"/>
+    </bean>
+
+    <!--spring再次封装的jms接口;-->
+    <bean id="singleConnectionFactory" class="org.springframework.jms.connection.SingleConnectionFactory">
+        <property name="targetConnectionFactory" ref="targetConnectionFactory"/>
+    </bean>
+
+
+    <!--配置jms 模板  发消息;-->
+    <bean id="jmsTemplate" class="org.springframework.jms.core.JmsTemplate">
+        <property name="connectionFactory" ref="targetConnectionFactory"/>
+    </bean>
+
+    <!--配置 消息目的地-->
+    <bean id="activeMQQueue" class="org.apache.activemq.command.ActiveMQQueue">
+        <constructor-arg name="name" value="jarvismall-queue" />
+        <!--<property name="physicalName" value=""/>-->
+    </bean>
+
+    <bean id="activeMQTopic" class="org.apache.activemq.command.ActiveMQTopic">
+        <constructor-arg name="name" value="jarvismall-topic"/>
+    </bean>
+
+    <bean id="messageListener" class="com.jarvismall.search.listener.MyMessageListener" />
+
+    <!--监听容器;-->
+    <bean  class="org.springframework.jms.listener.DefaultMessageListenerContainer">
+        <property name="connectionFactory" ref="targetConnectionFactory" />
+        <property name="destination" ref="activeMQTopic" />
+        <property name="messageListener" ref="messageListener"/>
+    </bean>
+</beans>

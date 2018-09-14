@@ -1,6 +1,11 @@
 import org.apache.activemq.ActiveMQConnectionFactory;
+import org.apache.activemq.command.ActiveMQQueue;
 import org.apache.activemq.command.ActiveMQTextMessage;
 import org.junit.Test;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.jms.core.JmsTemplate;
+import org.springframework.jms.core.MessageCreator;
 
 import javax.jms.*;
 
@@ -90,7 +95,7 @@ public class TestActiveMq {
                     TextMessage txtMessage = (TextMessage) message;
                     try {
                         String text = txtMessage.getText();
-                        System.out.print("\nresultmsg1: " + text+"\n");
+                        System.out.print("\nresultmsg1: " + text + "\n");
                     } catch (JMSException e) {
                         e.printStackTrace();
                     }
@@ -120,7 +125,7 @@ public class TestActiveMq {
                     TextMessage txtMessage = (TextMessage) message;
                     try {
                         String text = txtMessage.getText();
-                        System.out.print("\nresultmsg2: " + text+"\n");
+                        System.out.print("\nresultmsg2: " + text + "\n");
                     } catch (JMSException e) {
                         e.printStackTrace();
                     }
@@ -169,7 +174,7 @@ public class TestActiveMq {
                     TextMessage txtMessage = (TextMessage) message;
                     try {
                         String text = txtMessage.getText();
-                        System.out.print("\nresultmsg2: " + text+"\n");
+                        System.out.print("\nresultmsg2: " + text + "\n");
                     } catch (JMSException e) {
                         e.printStackTrace();
                     }
@@ -183,4 +188,22 @@ public class TestActiveMq {
         session.close();
         connection.close();
     }
+
+    @Test
+    public void testJmsTemplate() throws JMSException {
+        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("classpath:spring/applicationContext-activemq.xml");
+        JmsTemplate template = (JmsTemplate) applicationContext.getBean("jmsTemplate");
+        Destination destination = (Destination) applicationContext.getBean("activeMQQueue");
+
+        template.send(destination, new MessageCreator() {
+            @Override
+            public Message createMessage(Session session) throws JMSException {
+//                TextMessage message = new ActiveMQTextMessage();
+                TextMessage message = session.createTextMessage();
+                message.setText("message--");
+                return message;
+            }
+        });
+    }
+
 }
