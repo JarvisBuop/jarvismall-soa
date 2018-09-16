@@ -1,0 +1,5 @@
+com\jarvismall\detail\controller\ItemController.class
+com\jarvismall\detail\controller\HtmlGenController$1.class
+com\jarvismall\detail\controller\HtmlGenController.class
+com\jarvismall\detail\listener\GenFreeMarkerListener.class
+com\jarvismall\detail\pojo\Item.class

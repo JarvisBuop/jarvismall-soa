@@ -1,2 +1,5 @@
-com\jarvismall\service\impl\TbItemServiceImpl.class
+com\jarvismall\jedis\JedisClientPool.class
 com\jarvismall\service\impl\TbItemServiceImpl$1.class
+com\jarvismall\jedis\JedisClient.class
+com\jarvismall\service\impl\TbItemServiceImpl.class
+com\jarvismall\jedis\JedisClientCluster.class

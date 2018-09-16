@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+        http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd
+        http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd">
+
+    <!--加载属性文件-->
+    <context:property-placeholder location="classpath:resource/resource.properties"/>
+
+    <!-- @Controller注解扫描 -->
+    <context:component-scan base-package="com.jarvismall.detail.controller"></context:component-scan>
+
+    <!-- 注解驱动: 替我们显示的配置了最新版的注解的处理器映射器和处理器适配器
+    conversion-service="conversionService"-->
+    <mvc:annotation-driven></mvc:annotation-driven>
+
+    <!-- 防止 No mapping found -->
+    <mvc:resources mapping="/css/**" location="/css/"/>
+    <mvc:resources mapping="/js/**" location="/js/"/>
+    <mvc:resources mapping="/images/**" location="/js/"/>
+    <mvc:resources mapping="/*.html" location="/WEB-INF/jsp/"/>
+    <mvc:resources mapping="/*.jsp" location="/WEB-INF/jsp/"/>
+    <!-- 多媒体解析器 -->
+    <!-- 配置文件上传解析器 -->
+    <!--<bean id="multipartResolver"-->
+    <!--class="org.springframework.web.multipart.commons.CommonsMultipartResolver">-->
+    <!--&lt;!&ndash; 设定默认编码 &ndash;&gt;-->
+    <!--<property name="defaultEncoding" value="UTF-8"></property>-->
+    <!--&lt;!&ndash; 设定文件上传的最大值5MB，5*1024*1024 &ndash;&gt;-->
+    <!--<property name="maxUploadSize" value="5242880"></property>-->
+    <!--</bean>-->
+    <!-- 配置视图解析器 作用:在controller中指定页面路径的时候就不用写页面的完整路径名称了,可以直接写页面去掉扩展名的名称 -->
+    <bean
+            class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <!-- 真正的页面路径 = 前缀 + 去掉后缀名的页面名称 + 后缀 -->
+        <!-- 前缀 -->
+        <property name="prefix" value="/WEB-INF/jsp/"></property>
+        <!-- 后缀 -->
+        <property name="suffix" value=".jsp"></property>
+    </bean>
+
+    <!-- 配置自定义转换器 注意: 一定要将自定义的转换器配置到注解驱动上 -->
+    <!--<bean id="conversionService"-->
+    <!--class="org.springframework.format.support.FormattingConversionServiceFactoryBean">-->
+    <!--<property name="converters">-->
+    <!--<set>-->
+    <!--&lt;!&ndash; 指定自定义转换器的全路径名称 &ndash;&gt;-->
+    <!--<bean-->
+    <!--class="com.jarvisdong.controller.converter.CustomGlobalStrToDateConverter" />-->
+    <!--</set>-->
+    <!--</property>-->
+    <!--</bean>-->
+
+    <!--配置freemaker-->
+    <bean id="freeMarkerConfigurer" class="org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer">
+        <property name="templateLoaderPath" value="/WEB-INF/ftl"/>
+        <property name="defaultEncoding" value="utf-8"/>
+    </bean>
+
+    <!-- 引用dubbo服务 -->
+    <dubbo:application name="jarvismall-portal-web"/>
+    <dubbo:registry protocol="zookeeper" address="192.168.142.129:2181"/>
+    <!--dubbo 通信接口,相当于aidl-->
+    <dubbo:reference interface="com.jarvismall.service.TbItemService" id="tbItemService"/>
+</beans>

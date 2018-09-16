@@ -1,9 +1,6 @@
 package com.jarvismall.service;
 
-import com.jarvismall.pojo.EasyUiDataGridResult;
-import com.jarvismall.pojo.EasyUiTreeNode;
-import com.jarvismall.pojo.TaotaoResult;
-import com.jarvismall.pojo.TbItem;
+import com.jarvismall.pojo.*;
 
 import java.util.List;
 
@@ -13,6 +10,7 @@ import java.util.List;
 public interface TbItemService {
     List<TbItem> selectAll();
     TbItem getItemById(Long itemId);
+    TbItemDesc getItemDescById(Long itemId);
 
     EasyUiDataGridResult getItemList(int page, int rows);
 

@@ -1,15 +1,21 @@
 package com.jarvismall.service.impl;
 
+import com.alibaba.druid.support.json.JSONUtils;
+import com.alibaba.dubbo.common.json.JSON;
 import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
+import com.jarvismall.jedis.JedisClient;
 import com.jarvismall.mapper.TbItemCatMapper;
 import com.jarvismall.mapper.TbItemDescMapper;
 import com.jarvismall.mapper.TbItemMapper;
 import com.jarvismall.pojo.*;
 import com.jarvismall.service.TbItemService;
 import com.jarvismall.utils.IDUtils;
+import com.jarvismall.utils.JsonUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.jms.core.JmsTemplate;
 import org.springframework.jms.core.MessageCreator;
 import org.springframework.stereotype.Service;
@@ -37,9 +43,16 @@ public class TbItemServiceImpl implements TbItemService {
     @Autowired
     private JmsTemplate template;
 
-//    @Autowired
+    //    @Autowired
     @Resource(name = "activeMQTopic")
     private Destination destination;
+
+    @Autowired
+    private JedisClient jedisClient;
+    @Value("${ITEM_INFO}")
+    private String ITEMINFO;
+    @Value("${ITEM_TIME_EXPIRE}")
+    private Integer TIMEEXPIRE;
 
     @Override
     public List<TbItem> selectAll() {
@@ -48,8 +61,50 @@ public class TbItemServiceImpl implements TbItemService {
 
     @Override
     public TbItem getItemById(Long itemId) {
-        TbItem tbItem = tbItemMapper.selectByPrimaryKey(itemId);
+        TbItem tbItem = null;
+        try {
+            String s = jedisClient.get(getRedisKey(itemId,"BASA"));
+            jedisClient.expire(getRedisKey(itemId,"BASA"),TIMEEXPIRE);
+            if (StringUtils.isNotBlank(s)) {
+                tbItem =  JsonUtils.jsonToPojo(s, TbItem.class);
+                return tbItem;
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        tbItem = tbItemMapper.selectByPrimaryKey(itemId);
+        try {
+            jedisClient.set(getRedisKey(itemId,"BASA"), JsonUtils.objectToJson(tbItem));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
         return tbItem;
+    }
+
+    @Override
+    public TbItemDesc getItemDescById(Long itemId) {
+        TbItemDesc tbItemDesc = null;
+        try {
+            String s = jedisClient.get(getRedisKey(itemId,"DESC"));
+            jedisClient.expire(getRedisKey(itemId,"DESC"),TIMEEXPIRE);
+            if (StringUtils.isNotBlank(s)) {
+                tbItemDesc =  JsonUtils.jsonToPojo(s, TbItemDesc.class);
+                return tbItemDesc;
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        tbItemDesc = tbItemDescMapper.selectByPrimaryKey(itemId);
+        try {
+            jedisClient.set(getRedisKey(itemId,"DESC"), JsonUtils.objectToJson(tbItemDesc));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return tbItemDesc;
+    }
+
+    private String getRedisKey(Long itemId,String rowName) {
+        return ITEMINFO + ":" + itemId + ":" + rowName;
     }
 
     @Override
@@ -106,7 +161,7 @@ public class TbItemServiceImpl implements TbItemService {
             template.send(destination, new MessageCreator() {
                 @Override
                 public Message createMessage(Session session) throws JMSException {
-                    ActivieMqBundle bundle = new ActivieMqBundle(id+"",null);
+                    ActivieMqBundle bundle = new ActivieMqBundle(id + "", null);
                     TextMessage textMessage = session.createTextMessage(ActivieMqBundle.createJson(bundle));
                     return textMessage;
                 }

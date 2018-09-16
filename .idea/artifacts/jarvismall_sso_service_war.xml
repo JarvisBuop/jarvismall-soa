@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jarvismall-sso-service:war">
+    <output-path>$PROJECT_DIR$/jarvismall-sso/jarvismall-sso-service/target</output-path>
+    <root id="archive" name="jarvismall-manager.war">
+      <element id="artifact" artifact-name="jarvismall-sso-service:war exploded" />
+    </root>
+  </artifact>
+</component>

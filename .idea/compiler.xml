@@ -9,6 +9,7 @@
         <module name="jarvismai-lportal-web" />
         <module name="jarvismai-portal-web" />
         <module name="jarvismall-common" />
+        <module name="jarvismall-detail-web" />
         <module name="jarvismall-manager-dao" />
         <module name="jarvismall-manager-interface" />
         <module name="jarvismall-manager-pojo" />
@@ -21,12 +22,16 @@
         <module name="jarvismall-search-service" />
         <module name="jarvismall-search-web" />
         <module name="jarvismall-service" />
+        <module name="jarvismall-sso-interface" />
+        <module name="jarvismall-sso-service" />
+        <module name="jarvismall-sso-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="jarvismai-lportal-web" target="1.7" />
       <module name="jarvismai-portal-web" target="1.7" />
       <module name="jarvismall-common" target="1.7" />
+      <module name="jarvismall-detail-web" target="1.7" />
       <module name="jarvismall-manager" target="1.7" />
       <module name="jarvismall-manager-dao" target="1.7" />
       <module name="jarvismall-manager-interface" target="1.7" />
@@ -43,6 +48,10 @@
       <module name="jarvismall-search-service" target="1.7" />
       <module name="jarvismall-search-web" target="1.7" />
       <module name="jarvismall-service" target="1.7" />
+      <module name="jarvismall-sso" target="1.7" />
+      <module name="jarvismall-sso-interface" target="1.7" />
+      <module name="jarvismall-sso-service" target="1.7" />
+      <module name="jarvismall-sso-web" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

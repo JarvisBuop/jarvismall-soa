@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://D:\MyIdeaPro\jarvismall-parent\jarvismai-portal-web\jarvismai-lportal-web.iml" filepath="D:\MyIdeaPro\jarvismall-parent\jarvismai-portal-web\jarvismai-lportal-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/jarvismall-common/jarvismall-common.iml" filepath="$PROJECT_DIR$/jarvismall-common/jarvismall-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jarvismall-detail-web/jarvismall-detail-web.iml" filepath="$PROJECT_DIR$/jarvismall-detail-web/jarvismall-detail-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-dao/jarvismall-manager-dao.iml" filepath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-dao/jarvismall-manager-dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-interface/jarvismall-manager-interface.iml" filepath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-interface/jarvismall-manager-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-pojo/jarvismall-manager-pojo.iml" filepath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-pojo/jarvismall-manager-pojo.iml" />
@@ -18,6 +19,10 @@
       <module fileurl="file://$PROJECT_DIR$/jarvismall-search/jarvismall-search-interface/jarvismall-search-interface.iml" filepath="$PROJECT_DIR$/jarvismall-search/jarvismall-search-interface/jarvismall-search-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/jarvismall-search/jarvismall-search-service/jarvismall-search-service.iml" filepath="$PROJECT_DIR$/jarvismall-search/jarvismall-search-service/jarvismall-search-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/jarvismall-search-web/jarvismall-search-web.iml" filepath="$PROJECT_DIR$/jarvismall-search-web/jarvismall-search-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jarvismall-sso/jarvismall-sso.iml" filepath="$PROJECT_DIR$/jarvismall-sso/jarvismall-sso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jarvismall-sso/jarvismall-sso-interface/jarvismall-sso-interface.iml" filepath="$PROJECT_DIR$/jarvismall-sso/jarvismall-sso-interface/jarvismall-sso-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jarvismall-sso/jarvismall-sso-service/jarvismall-sso-service.iml" filepath="$PROJECT_DIR$/jarvismall-sso/jarvismall-sso-service/jarvismall-sso-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jarvismall-sso-web/jarvismall-sso-web.iml" filepath="$PROJECT_DIR$/jarvismall-sso-web/jarvismall-sso-web.iml" />
       <module fileurl="file://D:\MyIdeaPro\jarvismall-parent\jarvismall-manager\jarvismallmanager.iml" filepath="D:\MyIdeaPro\jarvismall-parent\jarvismall-manager\jarvismallmanager.iml" />
     </modules>
   </component>

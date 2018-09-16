@@ -18,8 +18,8 @@ public class SearchIndexController {
     @Autowired
     SearchItemService searchItemService;
 
-    @RequestMapping("/search")
-    public String search(@RequestParam("q") String queryString,
+    @RequestMapping({"/search","/index"})
+    public String search(@RequestParam(name = "q",defaultValue = "") String queryString,
                          @RequestParam(defaultValue = "1") Integer page,
                          @RequestParam(defaultValue = "10") Integer rows,
                          Model model) {
