@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="jarvismall-sso-web:war exploded">
-    <output-path>$PROJECT_DIR$/jarvismall-sso-web/target/jarvismall-portal-web</output-path>
+    <output-path>$PROJECT_DIR$/jarvismall-sso-web/target/jarvismall-sso-web</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
@@ -57,7 +57,7 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/jarvismall-sso-web/target/jarvismall-portal-web/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/jarvismall-sso-web/target/jarvismall-sso-web/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="jarvismall-sso-web/web/Web" />
     </root>

@@ -109,7 +109,7 @@
 
 
     <build>
-        <finalName>jarvismall-portal-web</finalName>
+        <finalName>jarvismall-sso-web</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.tomcat.maven</groupId>
