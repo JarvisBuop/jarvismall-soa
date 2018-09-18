@@ -11,4 +11,6 @@ public interface UserService {
     TaotaoResult checkUser(String param,int type);
 
     TaotaoResult registerUser(TbUser tbUser);
+
+    TaotaoResult login(String username,String password);
 }
