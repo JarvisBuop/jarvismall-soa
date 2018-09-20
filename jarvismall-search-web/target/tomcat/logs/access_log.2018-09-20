@@ -1,0 +1,9 @@
+0:0:0:0:0:0:0:1 - - [20/Sep/2018:08:08:23 +0800] "GET /search.html?q=java HTTP/1.1" 200 19588 http-bio-8101-exec-1 14340
+0:0:0:0:0:0:0:1 - - [20/Sep/2018:08:08:23 +0800] "GET /js/taotao.js HTTP/1.1" 200 642 http-bio-8101-exec-2 3
+0:0:0:0:0:0:0:1 - - [20/Sep/2018:08:08:23 +0800] "GET /js/search_main.js HTTP/1.1" 304 - http-bio-8101-exec-4 8
+0:0:0:0:0:0:0:1 - - [20/Sep/2018:08:08:23 +0800] "GET /js/base-v1.js HTTP/1.1" 304 - http-bio-8101-exec-3 22
+0:0:0:0:0:0:0:1 - - [20/Sep/2018:08:08:23 +0800] "GET /images/20130725.png HTTP/1.1" 200 275 http-bio-8101-exec-6 2
+0:0:0:0:0:0:0:1 - - [20/Sep/2018:08:08:23 +0800] "GET /images/20130330A_2.png HTTP/1.1" 200 8252 http-bio-8101-exec-8 17
+0:0:0:0:0:0:0:1 - - [20/Sep/2018:08:08:23 +0800] "GET /images/20130606B.png HTTP/1.1" 200 3752 http-bio-8101-exec-7 9
+0:0:0:0:0:0:0:1 - - [20/Sep/2018:08:08:23 +0800] "GET /images/bg_hotsale.gif HTTP/1.1" 200 10475 http-bio-8101-exec-9 9
+0:0:0:0:0:0:0:1 - - [20/Sep/2018:08:08:23 +0800] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8101-exec-1 3

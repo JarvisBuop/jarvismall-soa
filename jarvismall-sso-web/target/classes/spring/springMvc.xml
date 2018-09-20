@@ -19,12 +19,12 @@
     conversion-service="conversionService"-->
     <mvc:annotation-driven></mvc:annotation-driven>
 
-    <!--防止 No mapping found-->
-    <!--<mvc:resources mapping="/css/**" location="/css/" />-->
-    <!--<mvc:resources mapping="/js/**" location="/js/" />-->
-    <!--<mvc:resources mapping="/images/**" location="/js/" />-->
-    <!--<mvc:resources mapping="/*.html" location="/WEB-INF/jsp/" />-->
-    <!--<mvc:resources mapping="/*.jsp" location="/WEB-INF/jsp/" />-->
+    <!--防止 No mapping found,配置资源映射,在那个文件夹都可以访问;-->
+    <mvc:resources mapping="/css/**" location="/WEB-INF/css/" />
+    <mvc:resources mapping="/js/**" location="/WEB-INF/js/" />
+    <mvc:resources mapping="/images/**" location="/WEB-INF/images/" />
+    <mvc:resources mapping="/*.html" location="/WEB-INF/jsp/" />
+    <mvc:resources mapping="/*.jsp" location="/WEB-INF/jsp/" />
     <!--多媒体解析器-->
     <!-- 配置文件上传解析器 -->
     <!--<bean id="multipartResolver"-->

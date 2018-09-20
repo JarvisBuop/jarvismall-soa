@@ -62,18 +62,17 @@ public class UserServiceImpl implements UserService {
     public TaotaoResult registerUser(TbUser tbUser) {
         //检查数据有效性;
         if (StringUtils.isBlank(tbUser.getUsername()) ||
-                StringUtils.isBlank(tbUser.getEmail()) ||
+//                StringUtils.isBlank(tbUser.getEmail()) ||
                 StringUtils.isBlank(tbUser.getPassword()) ||
                 StringUtils.isBlank(tbUser.getPhone())) {
             return TaotaoResult.build(400, "error parems");
         }
         TaotaoResult result = checkUser(tbUser.getUsername(), 1);
         TaotaoResult result2 = checkUser(tbUser.getPhone(), 2);
-        TaotaoResult result3 = checkUser(tbUser.getEmail(), 3);
+//        TaotaoResult result3 = checkUser(tbUser.getEmail(), 3);
 
         if (!(boolean) result.getData() ||
-                !(boolean) result2.getData() ||
-                !(boolean) result3.getData()) {
+                !(boolean) result2.getData()) {
             return TaotaoResult.build(400, "repeat name");
         }
 
@@ -116,6 +115,39 @@ public class UserServiceImpl implements UserService {
          //token写入cookies;
          //登录成功,跳转回调;
          */
-        return TaotaoResult.build(200,"OK",token);
+        return TaotaoResult.build(200, "OK", token);
+    }
+
+    @Override
+    public TaotaoResult getUserInfoByToken(String token) {
+        if (StringUtils.isBlank(token)) {
+            return TaotaoResult.build(400, "not empty");
+        }
+        String s = jedisClient.get(redisPre + ":" + token);
+        //重置过期时间
+        jedisClient.expire(redisPre + ":" + token,expireTime);
+        TbUser tbUser = null;
+        if (StringUtils.isBlank(s)) {
+            return TaotaoResult.build(400,"token expired,please relogin ");
+        }else {
+            //password没有保存;
+            tbUser = JsonUtils.jsonToPojo(s, TbUser.class);
+        }
+        //响应的直接是对象即可;
+//        return TaotaoResult.build(200, "OK", JsonUtils.objectToJson(tbUser));
+        return TaotaoResult.build(200, "OK", tbUser);
+    }
+
+    @Override
+    public TaotaoResult safeExit(String token) {
+        if (StringUtils.isBlank(token)) {
+            return TaotaoResult.build(400, "not empty");
+        }
+        String s = jedisClient.get(redisPre + ":" + token);
+
+        if (!StringUtils.isBlank(s)) {
+            jedisClient.expire(redisPre + ":" + token,0);
+        }
+        return TaotaoResult.build(200,"OK","");
     }
 }
