@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/jarvismall-cart-web/jarvismall-cart-web.iml" filepath="$PROJECT_DIR$/jarvismall-cart-web/jarvismall-cart-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/jarvismall-common/jarvismall-common.iml" filepath="$PROJECT_DIR$/jarvismall-common/jarvismall-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/jarvismall-detail-web/jarvismall-detail-web.iml" filepath="$PROJECT_DIR$/jarvismall-detail-web/jarvismall-detail-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-dao/jarvismall-manager-dao.iml" filepath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-dao/jarvismall-manager-dao.iml" />
@@ -9,6 +10,10 @@
       <module fileurl="file://$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-pojo/jarvismall-manager-pojo.iml" filepath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-pojo/jarvismall-manager-pojo.iml" />
       <module fileurl="file://$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-service/jarvismall-manager-service.iml" filepath="$PROJECT_DIR$/jarvismall-manager/jarvismall-manager-service/jarvismall-manager-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/jarvismall-manager-web/jarvismall-manager-web.iml" filepath="$PROJECT_DIR$/jarvismall-manager-web/jarvismall-manager-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jarvismall-order/jarvismall-order.iml" filepath="$PROJECT_DIR$/jarvismall-order/jarvismall-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jarvismall-order/jarvismall-order-interface/jarvismall-order-interface.iml" filepath="$PROJECT_DIR$/jarvismall-order/jarvismall-order-interface/jarvismall-order-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jarvismall-order/jarvismall-order-service/jarvismall-order-service.iml" filepath="$PROJECT_DIR$/jarvismall-order/jarvismall-order-service/jarvismall-order-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jarvismall-order-web/jarvismall-order-web.iml" filepath="$PROJECT_DIR$/jarvismall-order-web/jarvismall-order-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/jarvismall-parent.iml" filepath="$PROJECT_DIR$/jarvismall-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/jarvismall-portal/jarvismall-portal.iml" filepath="$PROJECT_DIR$/jarvismall-portal/jarvismall-portal.iml" />
       <module fileurl="file://$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-interface/jarvismall-portal-interface.iml" filepath="$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-interface/jarvismall-portal-interface.iml" />

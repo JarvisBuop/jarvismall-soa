@@ -38,7 +38,7 @@
                 <configuration>
                     <!--默认 工程名/xxx ,访问8080时不需加工程名-->
                     <path>/</path>
-                    <port>8100</port>
+                    <port>8093</port>
                 </configuration>
             </plugin>
         </plugins>

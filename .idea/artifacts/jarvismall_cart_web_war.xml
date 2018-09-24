@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jarvismall-cart-web:war">
+    <output-path>$PROJECT_DIR$/jarvismall-cart-web/target</output-path>
+    <root id="archive" name="jarvismall-cart-web.war">
+      <element id="artifact" artifact-name="jarvismall-cart-web:war exploded" />
+    </root>
+  </artifact>
+</component>

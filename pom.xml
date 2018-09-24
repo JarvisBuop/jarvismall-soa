@@ -310,6 +310,9 @@
         <module>jarvismall-detail-web</module>
         <module>jarvismall-sso</module>
         <module>jarvismall-sso-web</module>
+        <module>jarvismall-cart-web</module>
+        <module>jarvismall-order</module>
+        <module>jarvismall-order-web</module>
     </modules>
 
 

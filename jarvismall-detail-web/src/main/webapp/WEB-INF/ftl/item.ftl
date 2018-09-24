@@ -199,7 +199,7 @@
                 </li>
                 <li id="choose-btns">
                     <div id="choose-btn-append" class="btn">
-                        <a class="btn-append " id="InitCartUrl" href="/cart/add/${item.id}.html"
+                        <a class="btn-append " id="InitCartUrl" href="javascript:addCart()"
                            clstag="shangpin|keycount|product|initcarturl">加入购物车<b></b></a>
                     </div>
                     <div id="choose-btn-easybuy" class="btn"></div>
@@ -409,6 +409,14 @@
             itemControl.getItemDesc(itemId);
         }, 1000);
     });
+
+    //	加入购物车
+    function addCart() {
+        //取商品数量;
+        var buyNum = $("#buy-num").val();
+        //拼接
+        location.href="http://localhost:8086/cart/add/${item.id}.html?num="+ buyNum;
+    }
 </script>
 </body>
 </html>

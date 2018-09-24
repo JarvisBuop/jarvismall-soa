@@ -16402,3 +16402,708 @@ Mapped URL path [/*.jsp] onto handler 'org.springframework.web.servlet.resource.
 
 [INFO ] 2018-09-16 17:21:52,269 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:508)
 FrameworkServlet 'springMvc': initialization completed in 10626 ms
+
+
+[INFO ] 2018-09-20 08:08:02,715 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:489)
+FrameworkServlet 'springMvc': initialization started
+
+
+[INFO ] 2018-09-20 08:08:02,769 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578)
+Refreshing WebApplicationContext for namespace 'springMvc-servlet': startup date [Thu Sep 20 08:08:02 CST 2018]; root of context hierarchy
+
+
+[INFO ] 2018-09-20 08:08:02,800 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [spring/springMvc.xml]
+
+
+[INFO ] 2018-09-20 08:08:03,113 method:
+using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+
+
+[INFO ] 2018-09-20 08:08:03,217 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from class path resource [resource/resource.properties]
+
+
+[INFO ] 2018-09-20 08:08:03,223 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2018-09-20 08:08:03,491 method:com.alibaba.dubbo.registry.support.AbstractRegistry.loadProperties(AbstractRegistry.java:232)
+ [DUBBO] Load registry store file C:\Users\JarvisDong\.dubbo\dubbo-registry-192.168.142.129.cache, data: {com.jarvismall.service.TbItemService=empty://192.168.46.2:20880/com.jarvismall.service.TbItemService?anyhost=true&application=jarvismall-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.jarvismall.service.TbItemService&methods=getItemList,addItem,selectAll,getItemById,getTreeNodeByParentId,getItemDescById&pid=24760&side=provider&timeout=300000&timestamp=1537401472136, com.jarvismall.search.service.SearchItemService=empty://192.168.46.2:20882/com.jarvismall.search.service.SearchItemService?anyhost=true&application=jarvismall-search&category=configurators&check=false&dubbo=2.5.3&interface=com.jarvismall.search.service.SearchItemService&methods=getSearchItemsBySolrQuery,importItems2Index&pid=25780&side=provider&timeout=300000&timestamp=1537401483827, com.jarvismall.portal.service.ContentService=empty://192.168.46.2/com.jarvismall.portal.service.ContentService?application=jarvismall-portal-web&category=configurators&dubbo=2.5.3&interface=com.jarvismall.portal.service.ContentService&methods=getContentByCid,addContentItem&pid=24724&revision=1.0-SNAPSHOT&side=consumer&timestamp=1537401502549 empty://192.168.46.2/com.jarvismall.portal.service.ContentService?application=jarvismall-portal-web&category=routers&dubbo=2.5.3&interface=com.jarvismall.portal.service.ContentService&methods=getContentByCid,addContentItem&pid=24724&revision=1.0-SNAPSHOT&side=consumer&timestamp=1537401502549 dubbo://192.168.46.2:20881/com.jarvismall.portal.service.ContentService?anyhost=true&application=jarvismall-portal&dubbo=2.5.3&interface=com.jarvismall.portal.service.ContentService&methods=addContentItem,getContentByCid&pid=25500&side=provider&timeout=300000&timestamp=1537401475679, com.jarvismall.portal.service.CategoryService=empty://192.168.46.2:20881/com.jarvismall.portal.service.CategoryService?anyhost=true&application=jarvismall-portal&category=configurators&check=false&dubbo=2.5.3&interface=com.jarvismall.portal.service.CategoryService&methods=addCategoryItem,deleteCategoryItem,updataCategoryItem,getContentCategoryList&pid=25500&side=provider&timeout=300000&timestamp=1537401475137, com.jarvismall.sso.service.UserService=empty://192.168.46.2/com.jarvismall.sso.service.UserService?application=jarvismall-sso-web&category=configurators&dubbo=2.5.3&interface=com.jarvismall.sso.service.UserService&methods=checkUser,registerUser,safeExit,login,getUserInfoByToken&pid=25992&revision=1.0-SNAPSHOT&side=consumer&timestamp=1537401364115 empty://192.168.46.2/com.jarvismall.sso.service.UserService?application=jarvismall-sso-web&category=routers&dubbo=2.5.3&interface=com.jarvismall.sso.service.UserService&methods=checkUser,registerUser,safeExit,login,getUserInfoByToken&pid=25992&revision=1.0-SNAPSHOT&side=consumer&timestamp=1537401364115 dubbo://192.168.46.2:20883/com.jarvismall.sso.service.UserService?anyhost=true&application=jarvismall-sso&dubbo=2.5.3&interface=com.jarvismall.sso.service.UserService&methods=checkUser,registerUser,safeExit,login,getUserInfoByToken&pid=14844&side=provider&timeout=300000&timestamp=1537400917870, com.jarvismall.service.CategoryService=empty://192.168.46.2/com.jarvismall.service.CategoryService?application=jarvismall-manager-web&category=configurators&dubbo=2.5.3&interface=com.jarvismall.service.CategoryService&methods=getContentCategoryList&pid=19340&revision=1.0-SNAPSHOT&side=consumer&timestamp=1535192392782 empty://192.168.46.2/com.jarvismall.service.CategoryService?application=jarvismall-manager-web&category=routers&dubbo=2.5.3&interface=com.jarvismall.service.CategoryService&methods=getContentCategoryList&pid=19340&revision=1.0-SNAPSHOT&side=consumer&timestamp=1535192392782 empty://192.168.46.2/com.jarvismall.service.CategoryService?application=jarvismall-manager-web&category=providers&dubbo=2.5.3&interface=com.jarvismall.service.CategoryService&methods=getContentCategoryList&pid=19340&revision=1.0-SNAPSHOT&side=consumer&timestamp=1535192392782}, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-09-20 08:08:03,508 method:org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:64)
+Starting ZkClient event thread.
+
+
+[INFO ] 2018-09-20 08:08:03,523 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+
+
+[INFO ] 2018-09-20 08:08:03,523 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:host.name=JARVIS-PC
+
+
+[INFO ] 2018-09-20 08:08:03,524 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.version=1.8.0_131
+
+
+[INFO ] 2018-09-20 08:08:03,524 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.vendor=Oracle Corporation
+
+
+[INFO ] 2018-09-20 08:08:03,524 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.home=C:\Program Files\Java\jdk1.8.0_131\jre
+
+
+[INFO ] 2018-09-20 08:08:03,525 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.class.path=D:\masterspring\apache-maven-3.5.3\boot\plexus-classworlds-2.5.2.jar;D:\idea\IntelliJ IDEA 2017.1.6\lib\idea_rt.jar
+
+
+[INFO ] 2018-09-20 08:08:03,525 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.library.path=C:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\androidgitbash\Git\cmd;D:\python\;D:\androidstudiosdk\platform-tools;D:\androidstudioinstall\gradle\gradle-3.3-all\gradle-3.3\bin;D:\android-ndk-r14b-windows-x86_64\android-ndk-r14b;C:\Users\JarvisDong\Downloads\tomcat\apache-tomcat-9.0.4\bin;C:\Program Files\Java\jdk1.8.0_131\bin;D:\androidstudiosdk\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\flutterinstall\flutter\bin;D:\masterspring\apache-maven-3.5.3\bin;D:\sofeware\Redis-x64-3.2.100\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\VanDyke Software\Clients\;D:\sqlplus_install\instantclient_12_1\;D:\python\Scripts\;D:\python\;C:\Users\JarvisDong\AppData\Local\Microsoft\WindowsApps;C:\Users\JarvisDong\AppData\Roaming\npm;C:\Program Files (x86)\VanDyke Software\Clients\;.
+
+
+[INFO ] 2018-09-20 08:08:03,525 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.io.tmpdir=C:\Users\JARVIS~1\AppData\Local\Temp\
+
+
+[INFO ] 2018-09-20 08:08:03,526 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.compiler=<NA>
+
+
+[INFO ] 2018-09-20 08:08:03,526 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.name=Windows 10
+
+
+[INFO ] 2018-09-20 08:08:03,527 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.arch=amd64
+
+
+[INFO ] 2018-09-20 08:08:03,527 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.version=10.0
+
+
+[INFO ] 2018-09-20 08:08:03,527 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.name=JarvisDong
+
+
+[INFO ] 2018-09-20 08:08:03,527 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.home=C:\Users\JarvisDong
+
+
+[INFO ] 2018-09-20 08:08:03,527 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.dir=D:\MyIdeaPro\jarvismall-parent\jarvismall-search-web
+
+
+[INFO ] 2018-09-20 08:08:03,528 method:org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:438)
+Initiating client connection, connectString=192.168.142.129:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@6e326109
+
+
+[INFO ] 2018-09-20 08:08:03,558 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.142.129/192.168.142.129:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-09-20 08:08:03,561 method:org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:876)
+Socket connection established to 192.168.142.129/192.168.142.129:2181, initiating session
+
+
+[INFO ] 2018-09-20 08:08:03,641 method:org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1299)
+Session establishment complete on server 192.168.142.129/192.168.142.129:2181, sessionid = 0x165c9e85c160055, negotiated timeout = 30000
+
+
+[INFO ] 2018-09-20 08:08:03,642 method:org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449)
+zookeeper state changed (SyncConnected)
+
+
+[INFO ] 2018-09-20 08:08:03,668 method:com.alibaba.dubbo.registry.support.AbstractRegistry.register(AbstractRegistry.java:302)
+ [DUBBO] Register: consumer://192.168.46.2/com.jarvismall.search.service.SearchItemService?application=jarvismall-search-web&category=consumers&check=false&dubbo=2.5.3&interface=com.jarvismall.search.service.SearchItemService&methods=getSearchItemsBySolrQuery,importItems2Index&pid=20888&revision=1.0-SNAPSHOT&side=consumer&timestamp=1537402083426, dubbo version: 2.5.3, current host: 192.168.46.2
+
+
+[INFO ] 2018-09-20 08:08:03,688 method:com.alibaba.dubbo.registry.support.AbstractRegistry.subscribe(AbstractRegistry.java:325)
+ [DUBBO] Subscribe: consumer://192.168.46.2/com.jarvismall.search.service.SearchItemService?application=jarvismall-search-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.jarvismall.search.service.SearchItemService&methods=getSearchItemsBySolrQuery,importItems2Index&pid=20888&revision=1.0-SNAPSHOT&side=consumer&timestamp=1537402083426, dubbo version: 2.5.3, current host: 192.168.46.2
+
+
+[INFO ] 2018-09-20 08:08:03,714 method:com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:422)
+ [DUBBO] Notify urls for subscribe url consumer://192.168.46.2/com.jarvismall.search.service.SearchItemService?application=jarvismall-search-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.jarvismall.search.service.SearchItemService&methods=getSearchItemsBySolrQuery,importItems2Index&pid=20888&revision=1.0-SNAPSHOT&side=consumer&timestamp=1537402083426, urls: [dubbo://192.168.46.2:20882/com.jarvismall.search.service.SearchItemService?anyhost=true&application=jarvismall-search&dubbo=2.5.3&interface=com.jarvismall.search.service.SearchItemService&methods=getSearchItemsBySolrQuery,importItems2Index&pid=25780&side=provider&timeout=300000&timestamp=1537401483827, empty://192.168.46.2/com.jarvismall.search.service.SearchItemService?application=jarvismall-search-web&category=configurators&dubbo=2.5.3&interface=com.jarvismall.search.service.SearchItemService&methods=getSearchItemsBySolrQuery,importItems2Index&pid=20888&revision=1.0-SNAPSHOT&side=consumer&timestamp=1537402083426, empty://192.168.46.2/com.jarvismall.search.service.SearchItemService?application=jarvismall-search-web&category=routers&dubbo=2.5.3&interface=com.jarvismall.search.service.SearchItemService&methods=getSearchItemsBySolrQuery,importItems2Index&pid=20888&revision=1.0-SNAPSHOT&side=consumer&timestamp=1537402083426], dubbo version: 2.5.3, current host: 192.168.46.2
+
+
+[INFO ] 2018-09-20 08:08:03,854 method:com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:287)
+ [DUBBO] Successed connect to server /192.168.46.2:20882 from NettyClient 192.168.46.2 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0x16b813c2, /192.168.46.2:61518 => /192.168.46.2:20882]], dubbo version: 2.5.3, current host: 192.168.46.2
+
+
+[INFO ] 2018-09-20 08:08:03,855 method:com.alibaba.dubbo.remoting.transport.AbstractClient.<init>(AbstractClient.java:105)
+ [DUBBO] Start NettyClient JARVIS-PC/192.168.46.2 connect to the server /192.168.46.2:20882, dubbo version: 2.5.3, current host: 192.168.46.2
+
+
+[INFO ] 2018-09-20 08:08:03,918 method:com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:423)
+ [DUBBO] Refer dubbo service com.jarvismall.search.service.SearchItemService from url zookeeper://192.168.142.129:2181/com.alibaba.dubbo.registry.RegistryService?anyhost=true&application=jarvismall-search-web&check=false&dubbo=2.5.3&interface=com.jarvismall.search.service.SearchItemService&methods=getSearchItemsBySolrQuery,importItems2Index&pid=20888&revision=1.0-SNAPSHOT&side=consumer&timeout=300000&timestamp=1537402083426, dubbo version: 2.5.3, current host: 192.168.46.2
+
+
+[INFO ] 2018-09-20 08:08:04,091 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:527)
+Mapped "{[/search || /index]}" onto public java.lang.String com.jarvismall.search.controller.SearchIndexController.search(java.lang.String,java.lang.Integer,java.lang.Integer,org.springframework.ui.Model)
+
+
+[INFO ] 2018-09-20 08:08:04,348 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMvc-servlet': startup date [Thu Sep 20 08:08:02 CST 2018]; root of context hierarchy
+
+
+[INFO ] 2018-09-20 08:08:04,394 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMvc-servlet': startup date [Thu Sep 20 08:08:02 CST 2018]; root of context hierarchy
+
+
+[INFO ] 2018-09-20 08:08:04,444 method:org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:341)
+Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+
+
+[INFO ] 2018-09-20 08:08:04,446 method:org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:341)
+Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+
+
+[INFO ] 2018-09-20 08:08:04,448 method:org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:341)
+Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+
+
+[INFO ] 2018-09-20 08:08:04,450 method:org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:341)
+Mapped URL path [/*.html] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+
+
+[INFO ] 2018-09-20 08:08:04,451 method:org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:341)
+Mapped URL path [/*.jsp] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#4'
+
+
+[INFO ] 2018-09-20 08:08:04,528 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:508)
+FrameworkServlet 'springMvc': initialization completed in 1776 ms
+
+
+[WARN ] 2018-09-20 21:16:13,476 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1108)
+Client session timed out, have not heard from server in 20000ms for sessionid 0x165c9e85c160055
+
+
+[INFO ] 2018-09-20 21:16:13,483 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1156)
+Client session timed out, have not heard from server in 20000ms for sessionid 0x165c9e85c160055, closing socket connection and attempting reconnect
+
+
+[INFO ] 2018-09-20 21:16:13,585 method:org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449)
+zookeeper state changed (Disconnected)
+
+
+[INFO ] 2018-09-20 21:16:14,914 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.142.129/192.168.142.129:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[WARN ] 2018-09-20 21:16:35,925 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1162)
+Session 0x165c9e85c160055 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+
+
+[INFO ] 2018-09-20 21:16:37,963 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.142.129/192.168.142.129:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-09-20 21:16:46,180 method:com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol$1.disconnected(DubboProtocol.java:130)
+ [DUBBO] disconected from /192.168.46.2:20882,url:dubbo://192.168.46.2:20882/com.jarvismall.search.service.SearchItemService?anyhost=true&application=jarvismall-search-web&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.jarvismall.search.service.SearchItemService&methods=getSearchItemsBySolrQuery,importItems2Index&pid=20888&revision=1.0-SNAPSHOT&side=consumer&timeout=300000&timestamp=1537402083426, dubbo version: 2.5.3, current host: 192.168.46.2
+
+
+[INFO ] 2018-09-23 10:30:47,672 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:489)
+FrameworkServlet 'springMvc': initialization started
+
+
+[INFO ] 2018-09-23 10:30:47,695 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578)
+Refreshing WebApplicationContext for namespace 'springMvc-servlet': startup date [Sun Sep 23 10:30:47 CST 2018]; root of context hierarchy
+
+
+[INFO ] 2018-09-23 10:30:47,738 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [spring/springMvc.xml]
+
+
+[INFO ] 2018-09-23 10:30:48,833 method:
+using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+
+
+[INFO ] 2018-09-23 10:30:49,042 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from class path resource [resource/resource.properties]
+
+
+[INFO ] 2018-09-23 10:30:49,049 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2018-09-23 10:30:49,397 method:com.alibaba.dubbo.registry.support.AbstractRegistry.loadProperties(AbstractRegistry.java:232)
+ [DUBBO] Load registry store file C:\Users\JarvisDong\.dubbo\dubbo-registry-192.168.142.129.cache, data: {com.jarvismall.service.TbItemService=empty://192.168.46.2/com.jarvismall.service.TbItemService?application=jarvismall-manager-web&category=configurators&dubbo=2.5.3&interface=com.jarvismall.service.TbItemService&methods=addItem,getItemList,selectAll,getItemById,getTreeNodeByParentId,getItemDescById&pid=24276&revision=1.0-SNAPSHOT&side=consumer&timestamp=1537669846859 empty://192.168.46.2/com.jarvismall.service.TbItemService?application=jarvismall-manager-web&category=routers&dubbo=2.5.3&interface=com.jarvismall.service.TbItemService&methods=addItem,getItemList,selectAll,getItemById,getTreeNodeByParentId,getItemDescById&pid=24276&revision=1.0-SNAPSHOT&side=consumer&timestamp=1537669846859 dubbo://192.168.46.2:20880/com.jarvismall.service.TbItemService?anyhost=true&application=jarvismall-manager&dubbo=2.5.3&interface=com.jarvismall.service.TbItemService&methods=getItemList,addItem,selectAll,getItemById,getTreeNodeByParentId,getItemDescById&pid=17004&side=provider&timeout=300000&timestamp=1537669799805, com.jarvismall.search.service.SearchItemService=empty://192.168.46.2/com.jarvismall.search.service.SearchItemService?application=jarvismall-manager-web&category=configurators&dubbo=2.5.3&interface=com.jarvismall.search.service.SearchItemService&methods=getSearchItemsBySolrQuery,importItems2Index&pid=24276&revision=1.0-SNAPSHOT&side=consumer&timestamp=1537669846627 empty://192.168.46.2/com.jarvismall.search.service.SearchItemService?application=jarvismall-manager-web&category=routers&dubbo=2.5.3&interface=com.jarvismall.search.service.SearchItemService&methods=getSearchItemsBySolrQuery,importItems2Index&pid=24276&revision=1.0-SNAPSHOT&side=consumer&timestamp=1537669846627 dubbo://192.168.46.2:20882/com.jarvismall.search.service.SearchItemService?anyhost=true&application=jarvismall-search&dubbo=2.5.3&interface=com.jarvismall.search.service.SearchItemService&methods=getSearchItemsBySolrQuery,importItems2Index&pid=28340&side=provider&timeout=300000&timestamp=1537669820542, com.jarvismall.portal.service.ContentService=empty://192.168.46.2/com.jarvismall.portal.service.ContentService?application=jarvismall-manager-web&category=configurators&dubbo=2.5.3&interface=com.jarvismall.portal.service.ContentService&methods=addContentItem,getContentByCid&pid=24276&revision=1.0-SNAPSHOT&side=consumer&timestamp=1537669846403 empty://192.168.46.2/com.jarvismall.portal.service.ContentService?application=jarvismall-manager-web&category=routers&dubbo=2.5.3&interface=com.jarvismall.portal.service.ContentService&methods=addContentItem,getContentByCid&pid=24276&revision=1.0-SNAPSHOT&side=consumer&timestamp=1537669846403 dubbo://192.168.46.2:20881/com.jarvismall.portal.service.ContentService?anyhost=true&application=jarvismall-portal&dubbo=2.5.3&interface=com.jarvismall.portal.service.ContentService&methods=getContentByCid,addContentItem&pid=22216&side=provider&timeout=300000&timestamp=1537669823217, com.jarvismall.portal.service.CategoryService=empty://192.168.46.2/com.jarvismall.portal.service.CategoryService?application=jarvismall-manager-web&category=configurators&dubbo=2.5.3&interface=com.jarvismall.portal.service.CategoryService&methods=addCategoryItem,deleteCategoryItem,updataCategoryItem,getContentCategoryList&pid=24276&revision=1.0-SNAPSHOT&side=consumer&timestamp=1537669835376 empty://192.168.46.2/com.jarvismall.portal.service.CategoryService?application=jarvismall-manager-web&category=routers&dubbo=2.5.3&interface=com.jarvismall.portal.service.CategoryService&methods=addCategoryItem,deleteCategoryItem,updataCategoryItem,getContentCategoryList&pid=24276&revision=1.0-SNAPSHOT&side=consumer&timestamp=1537669835376 dubbo://192.168.46.2:20881/com.jarvismall.portal.service.CategoryService?anyhost=true&application=jarvismall-portal&dubbo=2.5.3&interface=com.jarvismall.portal.service.CategoryService&methods=addCategoryItem,deleteCategoryItem,updataCategoryItem,getContentCategoryList&pid=22216&side=provider&timeout=300000&timestamp=1537669813476, com.jarvismall.sso.service.UserService=empty://192.168.46.2:20883/com.jarvismall.sso.service.UserService?anyhost=true&application=jarvismall-sso&category=configurators&check=false&dubbo=2.5.3&interface=com.jarvismall.sso.service.UserService&methods=checkUser,registerUser,safeExit,login,getUserInfoByToken&pid=25700&side=provider&timeout=300000&timestamp=1537669515579, com.jarvismall.service.CategoryService=empty://192.168.46.2/com.jarvismall.service.CategoryService?application=jarvismall-manager-web&category=configurators&dubbo=2.5.3&interface=com.jarvismall.service.CategoryService&methods=getContentCategoryList&pid=19340&revision=1.0-SNAPSHOT&side=consumer&timestamp=1535192392782 empty://192.168.46.2/com.jarvismall.service.CategoryService?application=jarvismall-manager-web&category=routers&dubbo=2.5.3&interface=com.jarvismall.service.CategoryService&methods=getContentCategoryList&pid=19340&revision=1.0-SNAPSHOT&side=consumer&timestamp=1535192392782 empty://192.168.46.2/com.jarvismall.service.CategoryService?application=jarvismall-manager-web&category=providers&dubbo=2.5.3&interface=com.jarvismall.service.CategoryService&methods=getContentCategoryList&pid=19340&revision=1.0-SNAPSHOT&side=consumer&timestamp=1535192392782}, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-09-23 10:30:49,413 method:org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:64)
+Starting ZkClient event thread.
+
+
+[INFO ] 2018-09-23 10:30:58,445 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+
+
+[INFO ] 2018-09-23 10:30:58,446 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:host.name=JARVIS-PC
+
+
+[INFO ] 2018-09-23 10:30:58,446 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.version=1.8.0_131
+
+
+[INFO ] 2018-09-23 10:30:58,446 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.vendor=Oracle Corporation
+
+
+[INFO ] 2018-09-23 10:30:58,446 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.home=C:\Program Files\Java\jdk1.8.0_131\jre
+
+
+[INFO ] 2018-09-23 10:30:58,446 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.class.path=D:\masterspring\apache-maven-3.5.3\boot\plexus-classworlds-2.5.2.jar;D:\idea\IntelliJ IDEA 2017.1.6\lib\idea_rt.jar
+
+
+[INFO ] 2018-09-23 10:30:58,447 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.library.path=C:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\androidgitbash\Git\cmd;D:\python\;D:\androidstudiosdk\platform-tools;D:\androidstudioinstall\gradle\gradle-3.3-all\gradle-3.3\bin;D:\android-ndk-r14b-windows-x86_64\android-ndk-r14b;C:\Users\JarvisDong\Downloads\tomcat\apache-tomcat-9.0.4\bin;C:\Program Files\Java\jdk1.8.0_131\bin;D:\androidstudiosdk\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\flutterinstall\flutter\bin;D:\masterspring\apache-maven-3.5.3\bin;D:\sofeware\Redis-x64-3.2.100\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\VanDyke Software\Clients\;D:\sqlplus_install\instantclient_12_1\;D:\python\Scripts\;D:\python\;C:\Users\JarvisDong\AppData\Local\Microsoft\WindowsApps;C:\Users\JarvisDong\AppData\Roaming\npm;C:\Program Files (x86)\VanDyke Software\Clients\;.
+
+
+[INFO ] 2018-09-23 10:30:58,447 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.io.tmpdir=C:\Users\JARVIS~1\AppData\Local\Temp\
+
+
+[INFO ] 2018-09-23 10:30:58,447 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.compiler=<NA>
+
+
+[INFO ] 2018-09-23 10:30:58,448 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.name=Windows 10
+
+
+[INFO ] 2018-09-23 10:30:58,448 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.arch=amd64
+
+
+[INFO ] 2018-09-23 10:30:58,448 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.version=10.0
+
+
+[INFO ] 2018-09-23 10:30:58,448 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.name=JarvisDong
+
+
+[INFO ] 2018-09-23 10:30:58,449 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.home=C:\Users\JarvisDong
+
+
+[INFO ] 2018-09-23 10:30:58,449 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.dir=D:\MyIdeaPro\jarvismall-parent\jarvismall-search-web
+
+
+[INFO ] 2018-09-23 10:30:58,450 method:org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:438)
+Initiating client connection, connectString=192.168.142.129:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@22625300
+
+
+[INFO ] 2018-09-23 10:30:58,475 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.142.129/192.168.142.129:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-09-23 10:30:58,477 method:org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:876)
+Socket connection established to 192.168.142.129/192.168.142.129:2181, initiating session
+
+
+[INFO ] 2018-09-23 10:30:58,483 method:org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1299)
+Session establishment complete on server 192.168.142.129/192.168.142.129:2181, sessionid = 0x165f8821725000a, negotiated timeout = 30000
+
+
+[INFO ] 2018-09-23 10:30:58,484 method:org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449)
+zookeeper state changed (SyncConnected)
+
+
+[INFO ] 2018-09-23 10:30:58,505 method:com.alibaba.dubbo.registry.support.AbstractRegistry.register(AbstractRegistry.java:302)
+ [DUBBO] Register: consumer://192.168.46.2/com.jarvismall.search.service.SearchItemService?application=jarvismall-search-web&category=consumers&check=false&dubbo=2.5.3&interface=com.jarvismall.search.service.SearchItemService&methods=getSearchItemsBySolrQuery,importItems2Index&pid=20588&revision=1.0-SNAPSHOT&side=consumer&timestamp=1537669849317, dubbo version: 2.5.3, current host: 192.168.46.2
+
+
+[INFO ] 2018-09-23 10:30:58,527 method:com.alibaba.dubbo.registry.support.AbstractRegistry.subscribe(AbstractRegistry.java:325)
+ [DUBBO] Subscribe: consumer://192.168.46.2/com.jarvismall.search.service.SearchItemService?application=jarvismall-search-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.jarvismall.search.service.SearchItemService&methods=getSearchItemsBySolrQuery,importItems2Index&pid=20588&revision=1.0-SNAPSHOT&side=consumer&timestamp=1537669849317, dubbo version: 2.5.3, current host: 192.168.46.2
+
+
+[INFO ] 2018-09-23 10:30:58,576 method:com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:422)
+ [DUBBO] Notify urls for subscribe url consumer://192.168.46.2/com.jarvismall.search.service.SearchItemService?application=jarvismall-search-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.jarvismall.search.service.SearchItemService&methods=getSearchItemsBySolrQuery,importItems2Index&pid=20588&revision=1.0-SNAPSHOT&side=consumer&timestamp=1537669849317, urls: [dubbo://192.168.46.2:20882/com.jarvismall.search.service.SearchItemService?anyhost=true&application=jarvismall-search&dubbo=2.5.3&interface=com.jarvismall.search.service.SearchItemService&methods=getSearchItemsBySolrQuery,importItems2Index&pid=28340&side=provider&timeout=300000&timestamp=1537669820542, empty://192.168.46.2/com.jarvismall.search.service.SearchItemService?application=jarvismall-search-web&category=configurators&dubbo=2.5.3&interface=com.jarvismall.search.service.SearchItemService&methods=getSearchItemsBySolrQuery,importItems2Index&pid=20588&revision=1.0-SNAPSHOT&side=consumer&timestamp=1537669849317, empty://192.168.46.2/com.jarvismall.search.service.SearchItemService?application=jarvismall-search-web&category=routers&dubbo=2.5.3&interface=com.jarvismall.search.service.SearchItemService&methods=getSearchItemsBySolrQuery,importItems2Index&pid=20588&revision=1.0-SNAPSHOT&side=consumer&timestamp=1537669849317], dubbo version: 2.5.3, current host: 192.168.46.2
+
+
+[INFO ] 2018-09-23 10:30:58,709 method:com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:287)
+ [DUBBO] Successed connect to server /192.168.46.2:20882 from NettyClient 192.168.46.2 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0xfe04dfce, /192.168.46.2:55585 => /192.168.46.2:20882]], dubbo version: 2.5.3, current host: 192.168.46.2
+
+
+[INFO ] 2018-09-23 10:30:58,710 method:com.alibaba.dubbo.remoting.transport.AbstractClient.<init>(AbstractClient.java:105)
+ [DUBBO] Start NettyClient JARVIS-PC/192.168.46.2 connect to the server /192.168.46.2:20882, dubbo version: 2.5.3, current host: 192.168.46.2
+
+
+[INFO ] 2018-09-23 10:30:58,760 method:com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:423)
+ [DUBBO] Refer dubbo service com.jarvismall.search.service.SearchItemService from url zookeeper://192.168.142.129:2181/com.alibaba.dubbo.registry.RegistryService?anyhost=true&application=jarvismall-search-web&check=false&dubbo=2.5.3&interface=com.jarvismall.search.service.SearchItemService&methods=getSearchItemsBySolrQuery,importItems2Index&pid=20588&revision=1.0-SNAPSHOT&side=consumer&timeout=300000&timestamp=1537669849317, dubbo version: 2.5.3, current host: 192.168.46.2
+
+
+[INFO ] 2018-09-23 10:30:58,910 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:527)
+Mapped "{[/search || /index]}" onto public java.lang.String com.jarvismall.search.controller.SearchIndexController.search(java.lang.String,java.lang.Integer,java.lang.Integer,org.springframework.ui.Model)
+
+
+[INFO ] 2018-09-23 10:30:59,170 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMvc-servlet': startup date [Sun Sep 23 10:30:47 CST 2018]; root of context hierarchy
+
+
+[INFO ] 2018-09-23 10:30:59,218 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMvc-servlet': startup date [Sun Sep 23 10:30:47 CST 2018]; root of context hierarchy
+
+
+[INFO ] 2018-09-23 10:30:59,273 method:org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:341)
+Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+
+
+[INFO ] 2018-09-23 10:30:59,276 method:org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:341)
+Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+
+
+[INFO ] 2018-09-23 10:30:59,278 method:org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:341)
+Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+
+
+[INFO ] 2018-09-23 10:30:59,279 method:org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:341)
+Mapped URL path [/*.html] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+
+
+[INFO ] 2018-09-23 10:30:59,281 method:org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:341)
+Mapped URL path [/*.jsp] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#4'
+
+
+[INFO ] 2018-09-23 10:30:59,365 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:508)
+FrameworkServlet 'springMvc': initialization completed in 11690 ms
+
+
+[WARN ] 2018-09-23 11:17:14,896 method:org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1136)
+No mapping found for HTTP request with URI [/item/1446793231.html] in DispatcherServlet with name 'springMvc'
+
+
+[WARN ] 2018-09-23 11:17:47,766 method:org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1136)
+No mapping found for HTTP request with URI [/item/1446793231.html] in DispatcherServlet with name 'springMvc'
+
+
+[WARN ] 2018-09-23 13:42:39,152 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1108)
+Client session timed out, have not heard from server in 20000ms for sessionid 0x165f8821725000a
+
+
+[INFO ] 2018-09-23 13:42:39,155 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1156)
+Client session timed out, have not heard from server in 20000ms for sessionid 0x165f8821725000a, closing socket connection and attempting reconnect
+
+
+[INFO ] 2018-09-23 13:42:39,257 method:org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449)
+zookeeper state changed (Disconnected)
+
+
+[INFO ] 2018-09-23 13:42:40,871 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.142.129/192.168.142.129:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[WARN ] 2018-09-23 13:43:01,885 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1162)
+Session 0x165f8821725000a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+
+
+[INFO ] 2018-09-23 13:43:03,727 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.142.129/192.168.142.129:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-09-23 13:43:03,728 method:org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:876)
+Socket connection established to 192.168.142.129/192.168.142.129:2181, initiating session
+
+
+[INFO ] 2018-09-23 13:43:03,737 method:org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1299)
+Session establishment complete on server 192.168.142.129/192.168.142.129:2181, sessionid = 0x165f8821725000a, negotiated timeout = 30000
+
+
+[INFO ] 2018-09-23 13:43:03,737 method:org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449)
+zookeeper state changed (SyncConnected)
+
+
+[WARN ] 2018-09-24 01:47:45,611 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1162)
+Session 0x165f8821725000a for server 192.168.142.129/192.168.142.129:2181, unexpected error, closing socket connection and attempting reconnect
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doIO(ClientCnxnSocketNIO.java:68)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:366)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+
+
+[INFO ] 2018-09-24 01:47:45,716 method:org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449)
+zookeeper state changed (Disconnected)
+
+
+[INFO ] 2018-09-24 01:47:46,970 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.142.129/192.168.142.129:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-09-24 08:46:38,323 method:org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:876)
+Socket connection established to 192.168.142.129/192.168.142.129:2181, initiating session
+
+
+[INFO ] 2018-09-24 08:46:38,325 method:org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1299)
+Session establishment complete on server 192.168.142.129/192.168.142.129:2181, sessionid = 0x165f8821725000a, negotiated timeout = 30000
+
+
+[INFO ] 2018-09-24 08:46:38,326 method:org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449)
+zookeeper state changed (SyncConnected)
+
+
+[WARN ] 2018-09-24 08:46:45,105 method:com.alibaba.dubbo.remoting.exchange.support.header.HeartBeatTask.run(HeartBeatTask.java:71)
+ [DUBBO] Close channel HeaderExchangeClient [channel=com.alibaba.dubbo.remoting.transport.netty.NettyClient [/192.168.46.2:55585 -> /192.168.46.2:20882]], because heartbeat read idle time out: 180000ms, dubbo version: 2.5.3, current host: 192.168.46.2
+
+
+[INFO ] 2018-09-24 08:46:45,109 method:com.alibaba.dubbo.remoting.transport.netty.NettyChannel.close(NettyChannel.java:135)
+ [DUBBO] Close netty channel [id: 0xfe04dfce, /192.168.46.2:55585 => /192.168.46.2:20882], dubbo version: 2.5.3, current host: 192.168.46.2
+
+
+[INFO ] 2018-09-24 08:46:45,116 method:com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol$1.disconnected(DubboProtocol.java:130)
+ [DUBBO] disconected from /192.168.46.2:20882,url:dubbo://192.168.46.2:20882/com.jarvismall.search.service.SearchItemService?anyhost=true&application=jarvismall-search-web&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.jarvismall.search.service.SearchItemService&methods=getSearchItemsBySolrQuery,importItems2Index&pid=20588&revision=1.0-SNAPSHOT&side=consumer&timeout=300000&timestamp=1537669849317, dubbo version: 2.5.3, current host: 192.168.46.2
+
+
+[INFO ] 2018-09-24 08:46:45,119 method:com.alibaba.dubbo.remoting.transport.netty.NettyClient.doConnect(NettyClient.java:101)
+ [DUBBO] Close old netty channel [id: 0xfe04dfce, /192.168.46.2:55585 :> /192.168.46.2:20882] on create new netty channel [id: 0xe6981b69, /192.168.46.2:62936 => /192.168.46.2:20882], dubbo version: 2.5.3, current host: 192.168.46.2
+
+
+[INFO ] 2018-09-24 08:46:45,119 method:com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:287)
+ [DUBBO] Successed connect to server /192.168.46.2:20882 from NettyClient 192.168.46.2 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0xe6981b69, /192.168.46.2:62936 => /192.168.46.2:20882]], dubbo version: 2.5.3, current host: 192.168.46.2
+
+
+[INFO ] 2018-09-24 08:46:55,611 method:com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:422)
+ [DUBBO] Notify urls for subscribe url consumer://192.168.46.2/com.jarvismall.search.service.SearchItemService?application=jarvismall-search-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.jarvismall.search.service.SearchItemService&methods=getSearchItemsBySolrQuery,importItems2Index&pid=20588&revision=1.0-SNAPSHOT&side=consumer&timestamp=1537669849317, urls: [empty://192.168.46.2/com.jarvismall.search.service.SearchItemService?application=jarvismall-search-web&category=providers&dubbo=2.5.3&interface=com.jarvismall.search.service.SearchItemService&methods=getSearchItemsBySolrQuery,importItems2Index&pid=20588&revision=1.0-SNAPSHOT&side=consumer&timestamp=1537669849317], dubbo version: 2.5.3, current host: 192.168.46.2
+
+
+[INFO ] 2018-09-24 08:46:55,613 method:com.alibaba.dubbo.remoting.transport.netty.NettyChannel.close(NettyChannel.java:135)
+ [DUBBO] Close netty channel [id: 0xe6981b69, /192.168.46.2:62936 => /192.168.46.2:20882], dubbo version: 2.5.3, current host: 192.168.46.2
+
+
+[INFO ] 2018-09-24 08:46:55,615 method:com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol$1.disconnected(DubboProtocol.java:130)
+ [DUBBO] disconected from /192.168.46.2:20882,url:dubbo://192.168.46.2:20882/com.jarvismall.search.service.SearchItemService?anyhost=true&application=jarvismall-search-web&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.jarvismall.search.service.SearchItemService&methods=getSearchItemsBySolrQuery,importItems2Index&pid=20588&revision=1.0-SNAPSHOT&side=consumer&timeout=300000&timestamp=1537669849317, dubbo version: 2.5.3, current host: 192.168.46.2
+
+
+[INFO ] 2018-09-24 08:47:00,656 method:com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:422)
+ [DUBBO] Notify urls for subscribe url consumer://192.168.46.2/com.jarvismall.search.service.SearchItemService?application=jarvismall-search-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.jarvismall.search.service.SearchItemService&methods=getSearchItemsBySolrQuery,importItems2Index&pid=20588&revision=1.0-SNAPSHOT&side=consumer&timestamp=1537669849317, urls: [dubbo://192.168.46.2:20882/com.jarvismall.search.service.SearchItemService?anyhost=true&application=jarvismall-search&dubbo=2.5.3&interface=com.jarvismall.search.service.SearchItemService&methods=getSearchItemsBySolrQuery,importItems2Index&pid=28340&side=provider&timeout=300000&timestamp=1537669820542], dubbo version: 2.5.3, current host: 192.168.46.2
+
+
+[INFO ] 2018-09-24 08:47:00,659 method:com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:287)
+ [DUBBO] Successed connect to server /192.168.46.2:20882 from NettyClient 192.168.46.2 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0xa471051b, /192.168.46.2:62971 => /192.168.46.2:20882]], dubbo version: 2.5.3, current host: 192.168.46.2
+
+
+[INFO ] 2018-09-24 08:47:00,660 method:com.alibaba.dubbo.remoting.transport.AbstractClient.<init>(AbstractClient.java:105)
+ [DUBBO] Start NettyClient JARVIS-PC/192.168.46.2 connect to the server /192.168.46.2:20882, dubbo version: 2.5.3, current host: 192.168.46.2
+
+
+[INFO ] 2018-09-24 17:23:16,975 method:com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol$1.disconnected(DubboProtocol.java:130)
+ [DUBBO] disconected from /192.168.46.2:20882,url:dubbo://192.168.46.2:20882/com.jarvismall.search.service.SearchItemService?anyhost=true&application=jarvismall-search-web&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.jarvismall.search.service.SearchItemService&methods=getSearchItemsBySolrQuery,importItems2Index&pid=20588&revision=1.0-SNAPSHOT&side=consumer&timeout=300000&timestamp=1537669849317, dubbo version: 2.5.3, current host: 192.168.46.2
+
+
+[INFO ] 2018-09-24 17:24:39,275 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:489)
+FrameworkServlet 'springMvc': initialization started
+
+
+[INFO ] 2018-09-24 17:24:39,357 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578)
+Refreshing WebApplicationContext for namespace 'springMvc-servlet': startup date [Mon Sep 24 17:24:39 CST 2018]; root of context hierarchy
+
+
+[INFO ] 2018-09-24 17:24:39,427 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [spring/springMvc.xml]
+
+
+[INFO ] 2018-09-24 17:24:42,002 method:
+using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+
+
+[INFO ] 2018-09-24 17:24:42,953 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from class path resource [resource/resource.properties]
+
+
+[INFO ] 2018-09-24 17:24:42,962 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2018-09-24 17:24:44,043 method:com.alibaba.dubbo.registry.support.AbstractRegistry.loadProperties(AbstractRegistry.java:232)
+ [DUBBO] Load registry store file C:\Users\JarvisDong\.dubbo\dubbo-registry-192.168.142.129.cache, data: {com.jarvismall.service.TbItemService=empty://192.168.46.2/com.jarvismall.service.TbItemService?application=jarvismall-cart-web&category=configurators&dubbo=2.5.3&interface=com.jarvismall.service.TbItemService&methods=getItemList,addItem,selectAll,getItemById,getTreeNodeByParentId,getItemDescById&pid=22592&revision=1.0-SNAPSHOT&side=consumer&timestamp=1537768777136 empty://192.168.46.2/com.jarvismall.service.TbItemService?application=jarvismall-cart-web&category=routers&dubbo=2.5.3&interface=com.jarvismall.service.TbItemService&methods=getItemList,addItem,selectAll,getItemById,getTreeNodeByParentId,getItemDescById&pid=22592&revision=1.0-SNAPSHOT&side=consumer&timestamp=1537768777136 dubbo://192.168.46.2:20880/com.jarvismall.service.TbItemService?anyhost=true&application=jarvismall-manager&dubbo=2.5.3&interface=com.jarvismall.service.TbItemService&methods=getItemList,addItem,selectAll,getItemById,getTreeNodeByParentId,getItemDescById&pid=12044&side=provider&timeout=300000&timestamp=1537692140899, com.jarvismall.search.service.SearchItemService=empty://192.168.46.2:20882/com.jarvismall.search.service.SearchItemService?anyhost=true&application=jarvismall-search&category=configurators&check=false&dubbo=2.5.3&interface=com.jarvismall.search.service.SearchItemService&methods=getSearchItemsBySolrQuery,importItems2Index&pid=28340&side=provider&timeout=300000&timestamp=1537669820542, com.jarvismall.portal.service.ContentService=empty://192.168.46.2:20881/com.jarvismall.portal.service.ContentService?anyhost=true&application=jarvismall-portal&category=configurators&check=false&dubbo=2.5.3&interface=com.jarvismall.portal.service.ContentService&methods=getContentByCid,addContentItem&pid=10132&side=provider&timeout=300000&timestamp=1537781054513, com.jarvismall.portal.service.CategoryService=empty://192.168.46.2:20881/com.jarvismall.portal.service.CategoryService?anyhost=true&application=jarvismall-portal&category=configurators&check=false&dubbo=2.5.3&interface=com.jarvismall.portal.service.CategoryService&methods=addCategoryItem,deleteCategoryItem,updataCategoryItem,getContentCategoryList&pid=10132&side=provider&timeout=300000&timestamp=1537781042607, com.jarvismall.sso.service.UserService=empty://192.168.46.2:20883/com.jarvismall.sso.service.UserService?anyhost=true&application=jarvismall-sso&category=configurators&check=false&dubbo=2.5.3&interface=com.jarvismall.sso.service.UserService&methods=checkUser,registerUser,safeExit,login,getUserInfoByToken&pid=392&side=provider&timeout=300000&timestamp=1537781052579, com.jarvismall.service.CategoryService=empty://192.168.46.2/com.jarvismall.service.CategoryService?application=jarvismall-manager-web&category=configurators&dubbo=2.5.3&interface=com.jarvismall.service.CategoryService&methods=getContentCategoryList&pid=19340&revision=1.0-SNAPSHOT&side=consumer&timestamp=1535192392782 empty://192.168.46.2/com.jarvismall.service.CategoryService?application=jarvismall-manager-web&category=routers&dubbo=2.5.3&interface=com.jarvismall.service.CategoryService&methods=getContentCategoryList&pid=19340&revision=1.0-SNAPSHOT&side=consumer&timestamp=1535192392782 empty://192.168.46.2/com.jarvismall.service.CategoryService?application=jarvismall-manager-web&category=providers&dubbo=2.5.3&interface=com.jarvismall.service.CategoryService&methods=getContentCategoryList&pid=19340&revision=1.0-SNAPSHOT&side=consumer&timestamp=1535192392782}, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-09-24 17:24:44,238 method:org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:64)
+Starting ZkClient event thread.
+
+
+[INFO ] 2018-09-24 17:24:53,157 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+
+
+[INFO ] 2018-09-24 17:24:53,159 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:host.name=JARVIS-PC
+
+
+[INFO ] 2018-09-24 17:24:53,161 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.version=1.8.0_131
+
+
+[INFO ] 2018-09-24 17:24:53,161 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.vendor=Oracle Corporation
+
+
+[INFO ] 2018-09-24 17:24:53,161 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.home=C:\Program Files\Java\jdk1.8.0_131\jre
+
+
+[INFO ] 2018-09-24 17:24:53,162 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.class.path=D:\masterspring\apache-maven-3.5.3\boot\plexus-classworlds-2.5.2.jar;D:\idea\IntelliJ IDEA 2017.1.6\lib\idea_rt.jar
+
+
+[INFO ] 2018-09-24 17:24:53,162 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.library.path=C:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\androidgitbash\Git\cmd;D:\python\;D:\androidstudiosdk\platform-tools;D:\androidstudioinstall\gradle\gradle-3.3-all\gradle-3.3\bin;D:\android-ndk-r14b-windows-x86_64\android-ndk-r14b;C:\Users\JarvisDong\Downloads\tomcat\apache-tomcat-9.0.4\bin;C:\Program Files\Java\jdk1.8.0_131\bin;D:\androidstudiosdk\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\flutterinstall\flutter\bin;D:\masterspring\apache-maven-3.5.3\bin;D:\sofeware\Redis-x64-3.2.100\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\VanDyke Software\Clients\;D:\sqlplus_install\instantclient_12_1\;D:\python\Scripts\;D:\python\;C:\Users\JarvisDong\AppData\Local\Microsoft\WindowsApps;C:\Users\JarvisDong\AppData\Roaming\npm;C:\Program Files (x86)\VanDyke Software\Clients\;.
+
+
+[INFO ] 2018-09-24 17:24:53,183 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.io.tmpdir=C:\Users\JARVIS~1\AppData\Local\Temp\
+
+
+[INFO ] 2018-09-24 17:24:53,183 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.compiler=<NA>
+
+
+[INFO ] 2018-09-24 17:24:53,188 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.name=Windows 10
+
+
+[INFO ] 2018-09-24 17:24:53,189 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.arch=amd64
+
+
+[INFO ] 2018-09-24 17:24:53,189 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.version=10.0
+
+
+[INFO ] 2018-09-24 17:24:53,189 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.name=JarvisDong
+
+
+[INFO ] 2018-09-24 17:24:53,189 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.home=C:\Users\JarvisDong
+
+
+[INFO ] 2018-09-24 17:24:53,189 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.dir=D:\MyIdeaPro\jarvismall-parent\jarvismall-search-web
+
+
+[INFO ] 2018-09-24 17:24:53,191 method:org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:438)
+Initiating client connection, connectString=192.168.142.129:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@3a7e3aaa
+
+
+[INFO ] 2018-09-24 17:24:53,482 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.142.129/192.168.142.129:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-09-24 17:24:55,286 method:org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:876)
+Socket connection established to 192.168.142.129/192.168.142.129:2181, initiating session
+
+
+[INFO ] 2018-09-24 17:24:55,446 method:org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1299)
+Session establishment complete on server 192.168.142.129/192.168.142.129:2181, sessionid = 0x165f8821725002c, negotiated timeout = 30000
+
+
+[INFO ] 2018-09-24 17:24:55,459 method:org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449)
+zookeeper state changed (SyncConnected)
+
+
+[INFO ] 2018-09-24 17:24:55,523 method:com.alibaba.dubbo.registry.support.AbstractRegistry.register(AbstractRegistry.java:302)
+ [DUBBO] Register: consumer://192.168.46.2/com.jarvismall.search.service.SearchItemService?application=jarvismall-search-web&category=consumers&check=false&dubbo=2.5.3&interface=com.jarvismall.search.service.SearchItemService&methods=getSearchItemsBySolrQuery,importItems2Index&pid=3012&revision=1.0-SNAPSHOT&side=consumer&timestamp=1537781083838, dubbo version: 2.5.3, current host: 192.168.46.2
+
+
+[INFO ] 2018-09-24 17:24:56,010 method:com.alibaba.dubbo.registry.support.AbstractRegistry.subscribe(AbstractRegistry.java:325)
+ [DUBBO] Subscribe: consumer://192.168.46.2/com.jarvismall.search.service.SearchItemService?application=jarvismall-search-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.jarvismall.search.service.SearchItemService&methods=getSearchItemsBySolrQuery,importItems2Index&pid=3012&revision=1.0-SNAPSHOT&side=consumer&timestamp=1537781083838, dubbo version: 2.5.3, current host: 192.168.46.2
+
+
+[INFO ] 2018-09-24 17:24:56,196 method:com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:422)
+ [DUBBO] Notify urls for subscribe url consumer://192.168.46.2/com.jarvismall.search.service.SearchItemService?application=jarvismall-search-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.jarvismall.search.service.SearchItemService&methods=getSearchItemsBySolrQuery,importItems2Index&pid=3012&revision=1.0-SNAPSHOT&side=consumer&timestamp=1537781083838, urls: [empty://192.168.46.2/com.jarvismall.search.service.SearchItemService?application=jarvismall-search-web&category=providers&dubbo=2.5.3&interface=com.jarvismall.search.service.SearchItemService&methods=getSearchItemsBySolrQuery,importItems2Index&pid=3012&revision=1.0-SNAPSHOT&side=consumer&timestamp=1537781083838, empty://192.168.46.2/com.jarvismall.search.service.SearchItemService?application=jarvismall-search-web&category=configurators&dubbo=2.5.3&interface=com.jarvismall.search.service.SearchItemService&methods=getSearchItemsBySolrQuery,importItems2Index&pid=3012&revision=1.0-SNAPSHOT&side=consumer&timestamp=1537781083838, empty://192.168.46.2/com.jarvismall.search.service.SearchItemService?application=jarvismall-search-web&category=routers&dubbo=2.5.3&interface=com.jarvismall.search.service.SearchItemService&methods=getSearchItemsBySolrQuery,importItems2Index&pid=3012&revision=1.0-SNAPSHOT&side=consumer&timestamp=1537781083838], dubbo version: 2.5.3, current host: 192.168.46.2
+
+
+[WARN ] 2018-09-24 17:24:56,206 method:org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'searchIndexController': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: com.jarvismall.search.service.SearchItemService com.jarvismall.search.controller.SearchIndexController.searchItemService; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'searchItemService': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.jarvismall.search.service.SearchItemService. No provider available for the service com.jarvismall.search.service.SearchItemService from the url zookeeper://192.168.142.129:2181/com.alibaba.dubbo.registry.RegistryService?application=jarvismall-search-web&dubbo=2.5.3&interface=com.jarvismall.search.service.SearchItemService&methods=getSearchItemsBySolrQuery,importItems2Index&pid=3012&revision=1.0-SNAPSHOT&side=consumer&timestamp=1537781083838 to the consumer 192.168.46.2 use dubbo version 2.5.3
+
+
+[ERROR] 2018-09-24 17:24:56,209 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:502)
+Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'searchIndexController': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: com.jarvismall.search.service.SearchItemService com.jarvismall.search.controller.SearchIndexController.searchItemService; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'searchItemService': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.jarvismall.search.service.SearchItemService. No provider available for the service com.jarvismall.search.service.SearchItemService from the url zookeeper://192.168.142.129:2181/com.alibaba.dubbo.registry.RegistryService?application=jarvismall-search-web&dubbo=2.5.3&interface=com.jarvismall.search.service.SearchItemService&methods=getSearchItemsBySolrQuery,importItems2Index&pid=3012&revision=1.0-SNAPSHOT&side=consumer&timestamp=1537781083838 to the consumer 192.168.46.2 use dubbo version 2.5.3
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:772)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:839)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:538)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:668)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:682)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:553)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:494)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:136)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:160)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1280)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1193)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1088)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5176)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5460)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: com.jarvismall.search.service.SearchItemService com.jarvismall.search.controller.SearchIndexController.searchItemService; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'searchItemService': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.jarvismall.search.service.SearchItemService. No provider available for the service com.jarvismall.search.service.SearchItemService from the url zookeeper://192.168.142.129:2181/com.alibaba.dubbo.registry.RegistryService?application=jarvismall-search-web&dubbo=2.5.3&interface=com.jarvismall.search.service.SearchItemService&methods=getSearchItemsBySolrQuery,importItems2Index&pid=3012&revision=1.0-SNAPSHOT&side=consumer&timestamp=1537781083838 to the consumer 192.168.46.2 use dubbo version 2.5.3
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:573)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:331)
+	... 29 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'searchItemService': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.jarvismall.search.service.SearchItemService. No provider available for the service com.jarvismall.search.service.SearchItemService from the url zookeeper://192.168.142.129:2181/com.alibaba.dubbo.registry.RegistryService?application=jarvismall-search-web&dubbo=2.5.3&interface=com.jarvismall.search.service.SearchItemService&methods=getSearchItemsBySolrQuery,importItems2Index&pid=3012&revision=1.0-SNAPSHOT&side=consumer&timestamp=1537781083838 to the consumer 192.168.46.2 use dubbo version 2.5.3
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:175)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getObjectFromFactoryBean(FactoryBeanRegistrySupport.java:103)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getObjectForBeanInstance(AbstractBeanFactory.java:1585)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:254)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1192)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1116)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1014)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:545)
+	... 31 more
+Caused by: java.lang.IllegalStateException: Failed to check the status of the service com.jarvismall.search.service.SearchItemService. No provider available for the service com.jarvismall.search.service.SearchItemService from the url zookeeper://192.168.142.129:2181/com.alibaba.dubbo.registry.RegistryService?application=jarvismall-search-web&dubbo=2.5.3&interface=com.jarvismall.search.service.SearchItemService&methods=getSearchItemsBySolrQuery,importItems2Index&pid=3012&revision=1.0-SNAPSHOT&side=consumer&timestamp=1537781083838 to the consumer 192.168.46.2 use dubbo version 2.5.3
+	at com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:420)
+	at com.alibaba.dubbo.config.ReferenceConfig.init(ReferenceConfig.java:300)
+	at com.alibaba.dubbo.config.ReferenceConfig.get(ReferenceConfig.java:138)
+	at com.alibaba.dubbo.config.spring.ReferenceBean.getObject(ReferenceBean.java:65)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:168)
+	... 39 more
+
+
+[INFO ] 2018-09-24 17:24:57,615 method:com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:422)
+ [DUBBO] Notify urls for subscribe url consumer://192.168.46.2/com.jarvismall.search.service.SearchItemService?application=jarvismall-search-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.jarvismall.search.service.SearchItemService&methods=getSearchItemsBySolrQuery,importItems2Index&pid=3012&revision=1.0-SNAPSHOT&side=consumer&timestamp=1537781083838, urls: [dubbo://192.168.46.2:20882/com.jarvismall.search.service.SearchItemService?anyhost=true&application=jarvismall-search&dubbo=2.5.3&interface=com.jarvismall.search.service.SearchItemService&methods=getSearchItemsBySolrQuery,importItems2Index&pid=4440&side=provider&timeout=300000&timestamp=1537781083484], dubbo version: 2.5.3, current host: 192.168.46.2
+
+
+[INFO ] 2018-09-24 17:24:58,438 method:com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:287)
+ [DUBBO] Successed connect to server /192.168.46.2:20882 from NettyClient 192.168.46.2 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0xc0fc666a, /192.168.46.2:62866 => /192.168.46.2:20882]], dubbo version: 2.5.3, current host: 192.168.46.2
+
+
+[INFO ] 2018-09-24 17:24:58,438 method:com.alibaba.dubbo.remoting.transport.AbstractClient.<init>(AbstractClient.java:105)
+ [DUBBO] Start NettyClient JARVIS-PC/192.168.46.2 connect to the server /192.168.46.2:20882, dubbo version: 2.5.3, current host: 192.168.46.2

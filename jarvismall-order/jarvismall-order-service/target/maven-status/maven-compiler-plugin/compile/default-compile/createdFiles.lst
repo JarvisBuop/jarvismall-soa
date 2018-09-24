@@ -1,0 +1,4 @@
+com\jarvismall\jedis\JedisClient.class
+com\jarvismall\jedis\JedisClientPool.class
+com\jarvismall\order\service\impl\OrderServiceImpl.class
+com\jarvismall\jedis\JedisClientCluster.class

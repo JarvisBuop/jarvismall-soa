@@ -35,7 +35,7 @@
                 <configuration>
                     <!--默认 工程名/xxx ,访问8080时不需加工程名-->
                     <path>/</path>
-                    <port>8092</port>
+                    <port>8094</port>
                 </configuration>
             </plugin>
         </plugins>

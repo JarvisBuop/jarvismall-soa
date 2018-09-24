@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/jarvismall-cart-web" />
     <file type="web" url="file://$PROJECT_DIR$/jarvismall-common" />
     <file type="web" url="file://$PROJECT_DIR$/jarvismall-detail-web" />
     <file type="web" url="file://$PROJECT_DIR$/jarvismall-manager" />
     <file type="web" url="file://$PROJECT_DIR$/jarvismall-manager-web" />
+    <file type="web" url="file://$PROJECT_DIR$/jarvismall-order-web" />
+    <file type="web" url="file://$PROJECT_DIR$/jarvismall-order/jarvismall-order-service" />
     <file type="web" url="file://$PROJECT_DIR$/jarvismall-portal-web" />
     <file type="web" url="file://$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-interface" />
     <file type="web" url="file://$PROJECT_DIR$/jarvismall-portal/jarvismall-portal-service" />

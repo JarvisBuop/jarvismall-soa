@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="jarvismai-lportal-web" />
         <module name="jarvismai-portal-web" />
+        <module name="jarvismall-cart-web" />
         <module name="jarvismall-common" />
         <module name="jarvismall-detail-web" />
         <module name="jarvismall-manager-dao" />
@@ -15,6 +16,9 @@
         <module name="jarvismall-manager-pojo" />
         <module name="jarvismall-manager-service" />
         <module name="jarvismall-manager-web" />
+        <module name="jarvismall-order-interface" />
+        <module name="jarvismall-order-service" />
+        <module name="jarvismall-order-web" />
         <module name="jarvismall-portal-interface" />
         <module name="jarvismall-portal-service" />
         <module name="jarvismall-portal-web" />
@@ -30,6 +34,7 @@
     <bytecodeTargetLevel>
       <module name="jarvismai-lportal-web" target="1.7" />
       <module name="jarvismai-portal-web" target="1.7" />
+      <module name="jarvismall-cart-web" target="1.7" />
       <module name="jarvismall-common" target="1.7" />
       <module name="jarvismall-detail-web" target="1.7" />
       <module name="jarvismall-manager" target="1.7" />
@@ -38,6 +43,10 @@
       <module name="jarvismall-manager-pojo" target="1.7" />
       <module name="jarvismall-manager-service" target="1.7" />
       <module name="jarvismall-manager-web" target="1.7" />
+      <module name="jarvismall-order" target="1.7" />
+      <module name="jarvismall-order-interface" target="1.7" />
+      <module name="jarvismall-order-service" target="1.7" />
+      <module name="jarvismall-order-web" target="1.7" />
       <module name="jarvismall-parent" target="1.7" />
       <module name="jarvismall-portal" target="1.7" />
       <module name="jarvismall-portal-interface" target="1.7" />
